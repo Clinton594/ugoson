@@ -26,9 +26,10 @@
                   <h2 class="title title--h3"><img class="title-icon" src="http://netgon.net/artstyles/v-card/assets/icons/icon-experience.svg" alt="" /> Experience</h2>
                   <div class="timeline">
                     <article class="timeline__item">
-                      <h5 class="title title--h5 timeline__title">TEAM LEAD SOFTWARE DEVELOPMENT at DIGTIAL DREAMS LTD</h5>
+                      <h5 class="title title--h5 timeline__title">SENIOR SOFTWARE DEVELOPER at DIGTIAL DREAMS LTD</h5>
                       <span class="timeline__period">Oct 2018 — Mar 2021</span>
                       <p class="timeline__description">
+                        • Team Lead.<br>
                         • Handles all software related issues from the Software Department.<br>
                         • Assign tasks and handle reportS.
                       </p>
@@ -130,7 +131,8 @@
               <div class="box-inner box-inner--rounded">
                 <div class="row">
                   <div class="col-12 col-lg-6">
-                    <h2 class="title title--h3">Programming Skills</h2>
+                    <h2 class="title title--h3">
+                      <img class="title-icon" src="<?=$uri->site?>assets/icons/browser-web-development-svgrepo-com.svg" alt="" />Programming Skills</h2>
                     <div class="box box__second">
 
                       <div class="progress">
@@ -219,6 +221,15 @@
                       <figcaption class="gallery-grid__caption">
                         <h4 class="title gallery-grid__title">Dreams ICT Tech Hub</h4>
                         <span class="gallery-grid__category">Project Reviews with the Interns at Dreams Hub, Enugu</span>
+                      </figcaption>
+                    </figure>
+                    <figure class="gallery-grid__item category-concept">
+                      <div class="gallery-grid__image-wrap">
+                        <img class="gallery-grid__image cover lazyload" src="<?=$uri->site?>assets/images/intern.jpeg" data-zoom alt="" />
+                      </div>
+                      <figcaption class="gallery-grid__caption">
+                        <h4 class="title gallery-grid__title">Heading BootCamp program at Dreams Tech Hub</h4>
+                        <span class="gallery-grid__category">Handled the latest batch of Developer Interns for Digital Dreams</span>
                       </figcaption>
                     </figure>
                   </div>
