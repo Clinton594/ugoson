@@ -9,7 +9,6 @@
   <ul class="nav">
     <li class="nav__item"><a class="active" href="<?=$uri->site?>">About</a></li>
     <li class="nav__item"><a href="<?=$uri->site?>resume">Resume</a></li>
-    <li class="nav__item"><a href="<?=$uri->site?>competence">Competence</a></li>
     <li class="nav__item"><a href="<?=$uri->site?>portfolio">Portfolio</a></li>
   </ul>
 </div>

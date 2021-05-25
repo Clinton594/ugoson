@@ -23,15 +23,13 @@
       <!-- Social -->
       <div class="social">
         <a class="social__link" href="https://web.facebook.com/Clinton594"><i class="font-icon icon-facebook"></i></a>
-        <a class="social__link" href="#"><i class="font-icon icon-twitter"></i></a>
-        <a class="social__link" href="https://www.linkedin.com/in/clinton-onuigbo-a5112810b/"><i class="font-icon icon-linkedin2"></i></a>
       </div>
     </div>
 
     <div class="sidebar__info box-inner">
       <ul class="contacts-block"  style="margin-bottom:0px ">
-        <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Address">
-          <i class="font-icon icon-location"></i>Enugu State, Nigeria
+        <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="linkedIn">
+          <a href="https://www.linkedin.com/in/clinton-onuigbo-a5112810b/"><i class="font-icon icon-phone"></i>linkedIn Profile</a>
         </li>
         <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="E-mail">
           <a href="mailto:<?=$generic->email?>"><i class="font-icon icon-envelope"></i><?=$generic->email?></a>
@@ -40,7 +38,7 @@
           <i class="font-icon icon-phone"></i><?=$generic->phones["MTN"]?>
         </li>
       </ul>
-      <a class="btn" href="whatsapp://send?phone=<?=$generic->phones["GLO"]?>"><i class="font-icon icon-phone"></i> <small>Get in Touch (WhatsApp)</small>
+      <a class="btn" href="mailto:<?=$generic->email?>"><i class="font-icon icon-envelope"></i> <small>Get in Touch</small>
       </a>
     </div>
   </div>

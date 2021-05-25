@@ -31,7 +31,7 @@
                   <div class="case-item box box__second">
                     <img class="case-item__icon" src="<?=$uri->site?>assets/icons/browser-web-development-svgrepo-com.svg" alt="" />
                     <div>
-                      <h3 class="title title--h5">Web Development</h3>
+                      <h3 class="title title--h5">BackEnd Web Development</h3>
                       <p class="case-item__caption">High-quality and professional development of websites at the professional level.</p>
                     </div>
                   </div>
@@ -41,21 +41,12 @@
                   <div class="case-item box box__second">
                     <img class="case-item__icon" src="<?=$uri->site?>assets/icons/web-design-svgrepo-com.svg" alt="" />
                     <div>
-                      <h3 class="title title--h5">Web Design</h3>
+                      <h3 class="title title--h5">Front-End Web Development</h3>
                       <p class="case-item__caption">I am not fully into UI/UX but i design very good user friendly interfaces.</p>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-12 col-lg-6">
-                  <div class="case-item box box__second">
-                    <img class="case-item__icon" src="<?=$uri->site?>assets/icons/font-design-svgrepo-com.svg" alt="" />
-                    <div>
-                      <h3 class="title title--h5">Graphics Design</h3>
-                      <p class="case-item__caption">I do not design at a professional level, but I make use of Photoshop and Fireworks.</p>
-                    </div>
-                  </div>
-                </div>
 
                 <div class="col-12 col-lg-6">
                   <div class="case-item box box__second">

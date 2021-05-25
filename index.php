@@ -14,9 +14,7 @@ if(!empty($ext)){
 $valid_pages 	= [
 	"" 					=> "views/home.php",
   "resume"     => "views/resume.php",
-  "blog"     => "views/blog.php",
   "portfolio"     => "views/blog.php",
-  "competence"     => "views/competence.php",
   "post"     => "views/single-post.php",
 ];
 

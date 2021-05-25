@@ -125,6 +125,7 @@
                 </figure>
               </div>
             </div>
+            
           </div>
 
           <footer class="footer">© <?=date("Y")?> Portfolio</footer>
