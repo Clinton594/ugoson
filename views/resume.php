@@ -3,6 +3,9 @@
 <head>
   <title><?=$generic->name?> About </title>
   <?php require_once 'includes/links.php'; ?>
+  <style media="screen">
+    .box__second ul strong{margin-left: -20px}
+  </style>
 </head>
 <body class="bg-triangles">
   <main class="main">
@@ -101,12 +104,21 @@
                     <h2 class="title title--h3">Key Competencies</h2>
                     <div class="box box__second">
                       <ul>
-                        <li>Advanced Level PHP</li>
-                        <li>MySQL Database Management</li>
-                        <li>REST APIs Development</li>
-                        <li>JavaScript Vanilla (ES6)</li>
-                        <li>JavaScript Frameworks (JQuery & Node JS)</li>
+                        <strong><u>Backend</u> </strong>
+                        <li>Advanced PHP</li>
+                        <li>Node JS</li>
+                        <li>Rest API</li>
+                        <strong><u>Frontend</u> </strong>
                         <li>HTML, XML, SVG & CSS</li>
+                        <li>JavaScript Vanilla (ES6)</li>
+                        <li>JavaScript Frameworks (JQuery)</li>
+                        <strong><u>DataBases</u> </strong>
+                        <li>MySQL Database</li>
+                        <li>FireBase</li>
+                        <li>MongoDB</li>
+                        <strong><u>DevOps</u> </strong>
+                        <li>Git</li>
+                        <li>GitHub CI/CD</li>
                         <li>Web Hosting, Unit Testing</li>
                         <li>Windows & Drivers Diagnostic</li>
                       </ul>
@@ -175,9 +187,9 @@
 
                       <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                          <div class="progress-text"><span>Graphics Designs</span><span></span></div>
+                          <div class="progress-text"><span>FireBase & Mongo DB</span><span></span></div>
                         </div>
-                        <div class="progress-text"><span>Graphics Designs</span><span>50%</span></div>
+                        <div class="progress-text"><span>FireBase & Mongo DB</span><span>50%</span></div>
                       </div>
 
                     </div>

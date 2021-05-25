@@ -41,7 +41,7 @@
                   <div class="case-item box box__second">
                     <img class="case-item__icon" src="<?=$uri->site?>assets/icons/web-design-svgrepo-com.svg" alt="" />
                     <div>
-                      <h3 class="title title--h5">Front-End Web Development</h3>
+                      <h3 class="title title--h5">FrontEnd Web Development</h3>
                       <p class="case-item__caption">I am not fully into UI/UX but i design very good user friendly interfaces.</p>
                     </div>
                   </div>
