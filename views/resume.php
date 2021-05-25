@@ -161,8 +161,7 @@
                     </div>
                   </div>
 
-                  <div class="col-12 col-lg-6 mt-4 mt-lg-0">
-                    <h2 class="title title--h3">-</h2>
+                  <div class="col-12 col-lg-6 mt-1 mb-5 mt-lg-5">
                     <div class="box box__second">
                       <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
