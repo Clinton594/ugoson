@@ -94,6 +94,34 @@
                 </div>
 
               </div>
+              <!--  Leadership -->
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 class="title title--h3"><img class="title-icon" src="http://netgon.net/artstyles/v-card/assets/icons/icon-experience.svg" alt="" /> Leadership Events</h2>
+                  <div class="gallery-grid js-masonry js-filter-container">
+                    <div class="gutter-sizer"></div>
+                    <figure class="gallery-grid__item category-concept">
+                      <div class="gallery-grid__image-wrap">
+                        <img class="gallery-grid__image cover lazyload" src="<?=$uri->site?>assets/images/gdg.jpeg" data-zoom alt="" />
+                      </div>
+                      <figcaption class="gallery-grid__caption">
+                        <h4 class="title gallery-grid__title">Google Business Group Enugu (GBG) 2019</h4>
+                        <span class="gallery-grid__category">Speaker on Google's Accelerated Mobile Pages (AMP)</span>
+                      </figcaption>
+                    </figure>
+
+                    <figure class="gallery-grid__item category-concept">
+                      <div class="gallery-grid__image-wrap">
+                        <img class="gallery-grid__image cover lazyload" src="<?=$uri->site?>assets/images/dreamshub.jpeg" data-zoom alt="" />
+                      </div>
+                      <figcaption class="gallery-grid__caption">
+                        <h4 class="title gallery-grid__title">Dreams ICT Tech Hub</h4>
+                        <span class="gallery-grid__category">Project Reviews with the Interns at Dreams Hub, Enugu</span>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <footer class="footer">© <?=date("Y")?> Portfolio</footer>
