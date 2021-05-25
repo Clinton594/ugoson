@@ -22,8 +22,8 @@
 
       <!-- Social -->
       <div class="social">
-        <a class="social__link" href="https://www.facebook.com/"><i class="font-icon icon-facebook"></i></a>
-        <a class="social__link" href="https://www.behance.com/"><i class="font-icon icon-twitter"></i></a>
+        <a class="social__link" href="https://web.facebook.com/Clinton594"><i class="font-icon icon-facebook"></i></a>
+        <a class="social__link" href="#"><i class="font-icon icon-twitter"></i></a>
         <a class="social__link" href="https://www.linkedin.com/in/clinton-onuigbo-a5112810b/"><i class="font-icon icon-linkedin2"></i></a>
       </div>
     </div>
