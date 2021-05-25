@@ -118,7 +118,7 @@
                         <li>MongoDB</li>
                         <strong><u>DevOps</u> </strong>
                         <li>Git</li>
-                        <li>GitHub CI/CD</li>
+                        <li>Hostinger CI/CD</li>
                         <li>Web Hosting, Unit Testing</li>
                         <li>Windows & Drivers Diagnostic</li>
                       </ul>
