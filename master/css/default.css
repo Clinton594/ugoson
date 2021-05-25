@@ -1,0 +1,234 @@
+.cldv
+{
+	width:calc(100% - 30px);
+	background-color:#FFFFFF;
+}
+.blue-ground
+{
+	background-color:#D2D2FF !important;
+}
+.cyan-border
+{
+	border-right:solid #FFFFBB 30px;
+}
+.red-border
+{
+	border-right:solid #FFCCCC 30px;
+}
+.no-padding
+{
+	padding:0px;
+}
+.no-bottom
+{
+	margin-bottom:0px !important;
+}
+.no-padding input
+{
+	padding: 0 0.75rem !important;
+	font-size:0.85rem !important;
+	color:#000000 !important;
+	width: calc(100% - 1.5rem) !important;
+}
+body{
+	font-weight:300;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.capitalize
+{
+	text-transform:uppercase;
+}
+.fixed
+{
+	position: fixed;
+}
+.panel
+{
+	min-height:150px;
+	max-height:250px;
+	height:auto;
+	overflow-x: hidden;
+	overflow-y: auto !important;
+	text-transform:uppercase;
+}
+.backdrop
+{
+	background-color:#6600CC !important;
+}
+.phold
+{
+	width:100%;
+	height:100px;
+	overflow:hidden;
+	text-align:center;
+}
+.disable
+{
+	color:#DADADA !important;
+}
+.myNav{
+	overflow:hidden;
+	width:50px;
+	height:100%;
+	position:fixed;
+	background-color:#EBEBEB;
+	box-shadow: 1px 1px 6px grey;
+	font-size:80%;
+	z-index:1000;
+}
+.myNav:hover{
+	width:250px;
+}
+.myIconSize{
+	font-size:20px !important;
+}
+.myNav:hover .myIconSize{
+	font-size:21px !important;
+}
+.myNav:hover .option{
+	color:black;
+}
+li:hover .option{
+	font-weight:bold;
+}
+.menu ul li:hover{
+	font-weight:bold;
+	color:black;
+}
+.myMenu{
+	height:40px;
+	cursor:pointer;
+}
+.sideNav{
+	margin-top:0px;
+}
+.sideNav > li:hover{
+	background-color:#E1E1E1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size:103%;
+}
+.sideNav > li:hover .myIconSize{
+	font-size:22px !important;
+	color:#000000;
+}
+.sideNav > a {
+	width:100%;
+}
+.iconPad{
+	padding-right:20px;
+	padding-left:14px;
+}
+.iconPad2{
+	padding-right:2px !important;
+	padding-left:14px !important;
+}
+.iconColor{
+	color: #515151;
+}
+.transit{
+	transition: all 0.3s !important;
+}
+.menu ul{
+	width:200px;
+	height:1200px;
+	background-color:#EBEBEB;
+	position: absolute;
+    left: 50px;
+    top: 0;
+	display:none;
+}
+.myMenu:hover ul{
+	display:block;
+	text-align:center;
+}
+.option{
+	display: block;
+	float:left;
+}
+.option a{
+	color:#515151;
+}
+.myMenu:hover a{
+	color:black;
+}
+.menu ul li{
+	width: 200px;
+	height: 40px;
+	background-color:#EBEBEB;
+	text-align:center;
+	line-height:40px;
+}
+.menu ul li a{
+	color: inherit;
+}
+.menu ul li:hover{
+	background-color:#E1E1E1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size:104%;
+}
+.menuHead{
+	font-weight:bolder;
+	font-size:large;
+	width: 200px;
+	height: 40px;
+	line-height:40px;
+	color:#ee6e73;
+	background-color:#F8F8F8;
+}
+.forMore{
+	font-size: 12px !important;
+	line-height: 40px;
+	float:right;
+}
+.width70{
+	width:70%;
+}
+.width30{
+	width:30%;
+}
+.vhBlend{
+	height:100%;
+	width:50px;
+	background-color:#2d2c37;
+	float:left;
+}
+.height50{
+	height:50px !important;
+}
+.myLineHeight{
+	line-height:50px;
+}
+.mv {
+    width: calc(100% - 90px);
+    margin-left: 50px;
+    margin-right: 40px;
+}
+#pageLabel {
+    font-size: 20px;
+    width: 350px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.cust
+{
+	height:80px;
+	overflow:hidden
+}
+.cpaddress
+{
+	display:none;
+}
+.st
+{
+	display:none;
+}
+#_name
+{
+	font-size:1.5rem;
+	margin-left:30px;
+}

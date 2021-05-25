@@ -1,0 +1,242 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: Ace;
+}
+*{
+	box-sizing: border-box
+}
+.main{
+    background-image:url("../images/background.jpg");
+    height: 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    float: left;
+    width: 100%;
+}
+.log{
+    max-width: 500px;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+.image{
+    text-align: center;
+
+}
+.image{
+    margin-top: 90px !important;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 200px !important;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.image img {
+    float: left;
+    width: 100%;
+}
+form {
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+.form{
+  width: 90%;
+    padding-bottom: 30px;
+}
+.form input {
+    padding: 12px 12px;
+    width: 85% !important;
+    display: inline;
+    border-radius: 2px 0px 0px 2px;
+    border-style: solid;
+    border-width: 2px 0px 2px 2px;
+    border-color: transparent;
+    float: left;
+	   color: dimgray;
+	    font-weight: bold;
+}
+.form button {
+    padding: 6.5px 12px;
+    width: 15%;
+    border-radius: 0px 2px 2px 0px;
+    border-style: solid;
+    border-width: 2px 2px 2px 0px;
+    border-color: transparent;
+    float: left;
+	margin-left: -5px;
+	cursor: pointer;
+}
+.form input:focus{
+    border-radius: 0px 2px 2px 0px;
+    border-style: solid;
+    border-width: 2px 0px 2px 2px;
+    border-color: #BDC3C7;
+    transition: all 500ms ease-in-out;
+}
+.form button:focus{
+    border-radius: 0px 2px 2px 0px;
+    border-style: solid;
+    border-width: 2px 2px 2px 0px;
+    border-color: #BDC3C7;
+    transition: all 100ms ease-in-out;
+}
+.form h1{
+    color: #fff;
+}
+.form h1.hide{
+    color: #BDC3C7;
+    visibility: hidden;
+}
+.forgot-pass{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+.forgot-pass a{
+    color: #fff;
+    font-size: 13pt;
+    text-decoration: none;
+}
+.forgot-pass a:hover{
+    text-decoration: underline;
+}
+.forgot-pass img{
+    margin-bottom: -3px;
+}
+.w-100{
+  width: 100%
+}
+#toast-container {
+display: block;
+
+position: fixed;
+
+z-index: 1001;
+
+top: 20%;
+
+left: 4%;
+
+}
+.toast {
+
+  border-radius: 2px;
+
+  top: 0;
+
+  width: auto;
+
+  clear: both;
+
+  margin-top: 10px;
+
+  position: relative;
+
+  max-width: 100%;
+
+  height: 48px;
+
+  line-height: 48px;
+
+  background-color: orangered;
+
+  padding: 0 25px;
+
+  font-size: 1.1rem;
+
+  font-weight: 300;
+
+  color: #fff;
+
+  display: -webkit-box;
+
+  display: -moz-box;
+
+  display: -ms-flexbox;
+
+  display: -webkit-flex;
+
+  display: flex;
+
+  -webkit-flex-align: center;
+
+  -ms-flex-align: center;
+
+  -webkit-align-items: center;
+
+  align-items: center;
+
+  -webkit-justify-content: space-between;
+
+  justify-content: space-between;
+}
+@-webkit-keyframes rotating {
+    from{
+    -webkit-transform: rotate(0deg);
+    }
+    to{
+    -webkit-transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 2s linear infinite;
+	margin-left: 2px;
+		color:green;
+}
+nav p{
+  position: fixed;
+  bottom: 50px;
+}
+nav > p:first-child{ right: 50px}
+nav > p:last-child{ left: 50px}
+@media (max-width: 767px) {
+  .form {
+    width: 100%;
+    padding: 0 20px;
+  }
+  nav{
+    width: 100%;
+    float: left
+  }
+  nav > p{
+    position: relative;
+    float: left;
+    width: 100%;
+    bottom: unset;
+  }
+  nav > p:first-child{ right: unset}
+  nav > p:last-child{ left: unset}
+
+  nav > p > a{
+    float: left;
+  }
+}
+.mycontainers #forgot-panel {
+    background-color:
+    white;
+}
+.float-right {
+    float: right;
+}
+a.btn-error.btn {
+  background-color:  transparent;
+  box-shadow: unset;
+  color:  #3b3baa;
+  text-transform: unset;
+  float: left;
+}
+.log #forgot-panel button{
+  border: none;
+  padding: 5px 15px;
+  border-radius: 3px;
+  background-color:
+  teal;
+  color:
+  white;
+  cursor: pointer;
+}

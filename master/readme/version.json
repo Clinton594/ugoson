@@ -1,0 +1,44 @@
+[
+  {
+    "date":"13-05-2020",
+    "version":"4.0",
+    "changes":"Migrated to Materialize 1.0.0"
+  },
+  {
+    "date":"14-01-2021",
+    "version":"5.0",
+    "changes":"Compacted Process pages. Now directories are no longer sourced from cookies. Reports have been introduced, though not yet finished"
+  },
+  {
+    "date":"28-01-2021",
+    "version":"6.0",
+    "changes":[
+      "introduced uri->backend full pathing",
+      "Compressed and default imaging as thumbnails",
+      "Schema tables now sources from to cache"
+    ]
+  },
+  {
+    "date":"31-01-2021",
+    "version":"6.1",
+    "changes":[
+      "Added database reset feature in {WEBSITE_URL}/{WEBSITE_BACKEND}/reset. This feature  would drop the database and recreate it, the run the tables again. Reset all cookies and sessions. Basically resets and restarts the application from the scratch",
+    ]
+  },
+  {
+    "date":"03-03-2021",
+    "version":"6.2",
+    "changes":[
+      "Added ability for element with sources fetching multiple column names to be concatenated using the concatenate keyword.",
+      "Modifications on combo box, it can be validated now by adding the keyword validate:true",
+      "Cache control for backend"
+    ]
+  },
+  {
+    "date":"15-03-2021",
+    "version":"6.3",
+    "changes":[
+      "Added various Email Templates and designs",
+    ]
+  }
+],

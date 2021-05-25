@@ -1,0 +1,41 @@
+#This file Describes all shady operations made in this project
+{
+  Trips:{
+    table: transactions
+    subzero   :{
+      customer: Driver's Name(Supposed to contain driver's name),
+      cid     : Driver's Id
+      telephone: Driver's Phone number
+      description: Route Name
+      address : Vehicle Name
+      cref    : Vehicle Plate Number
+      quantity: Number of seat of vehicle
+      unit    : Booked seats for the trip
+      it_type : vehicle_type for the trip
+    },
+    otherzero   :{
+      customer  : Passenger's Name,
+      telephone : Passenger's Phone number
+      description: Route Name
+      customerpo : Passenger's Next of Kin Phone
+      address : Passenger's Next of Kin Name
+      quantity: Number of seat of vehicle
+      unit    : Passenger's Seat Number
+      parent : trans_no to its subzero
+    }
+  }
+  Booking:{
+
+  }
+  Vehicle Rentals:{
+    table: transactions
+    quantity: Number of days for rent
+    description: Route
+    unit : Type of Vehicle Requested (from seat_map array)
+    type : id of Vehice Assigned to Client
+  }
+  Assign Drivers:{
+
+  }
+
+}

@@ -1,0 +1,62 @@
+in vehicle section, change vehicle logging to vehicle Details - done
+
+Customer reward system based on number of trips for discounts - done
+
+Single bookings doesn't appear in trips manager - done
+
+Remove kids price and make trip description a textarea - done
+
+All operations on trips manager doesn't refresh the page - done
+
+Booking email does not have a body - done
+
+Vehicle_type varchar is small - done
+
+Make the index tabs more explainatory - done
+
+Intimate the booker that the admin would reach out to them after Charter - done
+
+Display payment mode for each person in trips manager - done
+
+On search page, select the remaining one seat is a wrong English. - done
+
+After duplicating trips, it retains the former vehicle type even when changed - done
+
+Tell someone to call the admin call to reserve a seat - done
+
+Booking should submit before Payment - done
+
+Created Locations returns null on routes section - done
+
+Empty trips should show an empty state in the form and not empty form elements - done
+
+Emails notifications should be sent to all managers in the both trip terminals - done
+
+Creating users give problems - done
+
+user pictures doesn't show in the admin user icon - done
+
+Courier services needs to have allowance for dispatch trucks and dispatch riders - done
+
+Trips showing on courier page should be limited to destinations in that route - done
+
+Wipe transactions - done
+
+Customers from courier and Charters should be auto saved - done
+
+Seat reservation without payment - done
+
+Move hiring vehicles to a separate table that is not transactions - done
+
+Vehicle rentals should also be done also from the backend - done
+------------------------------------------------------------------------------
+
+and create a print receipt page for Courier and Vehicle Charter.
+
+Print passenger's manifest
+
+Date Filter should be able to accomodate upward dates
+
+Dashboard calculations is wrong
+
+Single booking receipt printing from backend;
