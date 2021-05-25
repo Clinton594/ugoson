@@ -8,9 +8,6 @@ $(document).ready(function() {
 
     'use strict';
 
-    $(this).toggleClass('is-active');
-    $('.inner-menu').toggleClass('is-active');
-    $('body').toggleClass('open-menu');
     /*-----------------------------------------------------------------
       Detect device mobile
     -------------------------------------------------------------------*/
@@ -125,6 +122,7 @@ $(document).ready(function() {
     $sideNavOpen.on('click', function() {
         tl.reversed() ? tl.play() : tl.reverse();
     });
+    $sideNavOpen.click();
 
 
     /*-----------------------------------------------------------------

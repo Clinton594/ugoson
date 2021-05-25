@@ -1,6 +1,0 @@
-toggler#To ignore the backend folder
-#/backendProject
-/assets
-.lock
-#This will ignore all the  images inside folder and push the folder
-#/images/*

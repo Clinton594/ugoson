@@ -1,16 +1,8 @@
 <?php
 session_start();
-
-require_once "master/controllers/Controllers.php";
-require_once("master/controllers/ForExchange.php");
-$session	=	(object)$_SESSION;
+require_once "master/Generic.php";
 $generic  = new Generic;
-$uri 			= $generic->getURIdata(true);
-$db 			= $generic->connect();
-$company 	= $generic->company();
-$paramControl 	= new ParamControl($generic);
-$appCurrency = $paramControl->load_sources("nairaEntity");
-
+$uri 			= $generic->getURIdata();
 $ext 			= pathinfo($uri->page_source, PATHINFO_EXTENSION);
 
 if(!empty($ext)){
@@ -18,8 +10,7 @@ if(!empty($ext)){
   $url = str_replace(".{$ext}", "", $url);
   header("Location: {$url}");
 }
-$fmt = new NumberFormatter("en", NumberFormatter::CURRENCY );
-$fmn = new NumberFormatter("en", NumberFormatter::DECIMAL );
+
 $valid_pages 	= [
 	"" 					=> "views/home.php",
   "about"     => "views/home.php",
@@ -31,14 +22,11 @@ $valid_pages 	= [
 ];
 
 
-$dashboard_pages = ["dashboard","profile"];
 $cache_control = "?v=maiyc";
-$blog = $coins = [];
 $page_exists = isset($valid_pages[$uri->page_source]);
 if($page_exists == true){
   require_once($valid_pages[$uri->page_source]);
 }else{
   require_once("views/not-found.php");
 }
-$db->close();
 ?>

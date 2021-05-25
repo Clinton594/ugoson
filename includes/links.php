@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="format-detection" content="telephone=no"/>
 <meta name="format-detection" content="address=no"/>
-<meta name="author" content="ArtTemplate" />
+<meta name="author" content="Onuigbo Clinton" />
 <meta name="description" content="vCard" />
 
 <!-- Twitter data -->
@@ -30,6 +30,6 @@
 <link rel="shortcut icon" href="assets/images/favicons/favicon.png" type="image/png">
 
 <!-- Styles -->
-<link rel="stylesheet" type="text/css" href="assets/styles/style.css"/>
-<link rel="stylesheet" type="text/css" href="assets/styles/style-dark.css"/>
-<link rel="stylesheet" type="text/css" href="assets/demo/style-demo.css"/>
+<link rel="stylesheet" type="text/css" href="<?=$uri->site?>assets/styles/style.css<?=$cache_control?>"/>
+<link rel="stylesheet" type="text/css" href="<?=$uri->site?>assets/styles/style-dark.css<?=$cache_control?>"/>
+<link rel="stylesheet" type="text/css" href="<?=$uri->site?>assets/demo/style-demo.css<?=$cache_control?>"/>
