@@ -1,6 +1,6 @@
 /* ------------------------------------------------
  Author: ArtStyles (Art)
- 
+
  Template Name: vCard
  version: 1.0.2
 ------------------------------------------------ */
@@ -13,14 +13,14 @@
    - Select
    - Button
    - Dropdown
-   
+
  - Typography
  - Preloader
- 
+
  - Menu
    - Hamburger
    - Nav
-   
+
  - Shared
    - Container
    - Box
@@ -29,24 +29,24 @@
    - Social
    - Badges
    - Tooltips
-   
+
  - Sidebar
    - Contact list
-   
+
  - Cases
 
  - Testimonials
    - Carousel pagination
-   
+
  - Clients
  - Timeline
  - Progress
- 
+
  - Portfolio
    - Filter
-    
+
  - News
- 
+
  - Single post
    - Comments
    - Comment form
@@ -54,16 +54,16 @@
    - Scroll Indicator
    - niceScroll
    - Social auth
-  
+
  - Footer
- 
+
  - Contact
    - Map
-   
+
  - Other
    - Bact to top
    - Medium Zoom
-  
+
 ------------------------------------------------ */
 @import url(bootstrap.min.css);
 @import url(swiper.min.css);
@@ -385,15 +385,15 @@ textarea:invalid {
   box-shadow: 0 0 0 0.2rem rgba(48, 76, 253, 0.25);
 }
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #304CFD;
+  border-color: #ef3239;
 }
 .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
   border-color: #fff;
   background-color: transparent;
 }
 .custom-control-input:checked ~ .custom-control-label::before {
-  border-color: #304CFD;
-  background-color: #304CFD;
+  border-color: #ef3239;
+  background-color: #ef3239;
 }
 
 .custom-control-label {
@@ -415,7 +415,7 @@ select option,
 }
 
 .btn {
-  background-color: #304CFD;
+  background-color: #ef3239;
   border-radius: 1.25rem;
   border: 0;
   box-shadow: 0px 8px 16px rgba(48, 76, 253, 0.15), 0px 2px 4px rgba(48, 76, 253, 0.15);
@@ -573,7 +573,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .title--tone {
-  color: #304CFD;
+  color: #ef3239;
 }
 .title-icon {
   margin-right: .5rem;
@@ -593,7 +593,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .title__separate::before {
   content: '';
-  background-color: #304CFD;
+  background-color: #ef3239;
   border-radius: .5rem;
   height: 5px;
   position: absolute;
@@ -711,14 +711,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #304CFD;
+  color: #ef3239;
   cursor: pointer;
   text-decoration: none;
   -webkit-text-decoration-skip: objects;
   transition: color 0.3s cubic-bezier(0.72, 0.16, 0.345, 0.875);
 }
 a:hover {
-  color: #304CFD;
+  color: #ef3239;
   outline: none;
   text-decoration: underline;
 }
@@ -775,12 +775,12 @@ iframe {
 
 ::-moz-selection {
   background: transparent;
-  color: #304CFD;
+  color: #ef3239;
 }
 
 ::selection {
   background: transparent;
-  color: #304CFD;
+  color: #ef3239;
 }
 
 /* -----------------------------------------------------------------
@@ -820,7 +820,7 @@ iframe {
   width: 100%;
 }
 .preloader__progress span {
-  background: #304CFD;
+  background: #ef3239;
   position: absolute;
   top: 0;
   left: 0;
@@ -843,7 +843,7 @@ iframe {
   height: 6rem;
   margin-top: -3rem;
   margin-left: -3rem;
-  background-color: #304CFD;
+  background-color: #ef3239;
 }
 
 .circle-pulse__2 {
@@ -869,7 +869,7 @@ iframe {
     - Menu
 ----------------------------------------------------------------- */
 .circle-menu {
-  background-color: #304CFD;
+  background-color: #ef3239;
   border-radius: 50% 1.25rem 50% 50%;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -958,7 +958,7 @@ iframe {
 }
 @media only screen and (max-width: 580px) {
   .hamburger.is-active .line {
-    background-color: #304CFD;
+    background-color: #ef3239;
   }
 }
 
@@ -1002,7 +1002,7 @@ iframe {
 
 .nav {
   color: #fff;
-  background: #304CFD;
+  background: #ef3239;
   border-radius: 2rem 0 0 2rem;
   box-shadow: 0 24px 40px rgba(48, 76, 253, 0.05), 0 8px 16px rgba(48, 76, 253, 0.05);
   display: -webkit-flex;
@@ -1407,7 +1407,7 @@ iframe {
   color: #fff;
 }
 .badge--blue {
-  background-color: #304CFD;
+  background-color: #ef3239;
   color: #fff;
 }
 .badge--blue-gradient {
@@ -1576,7 +1576,7 @@ iframe {
   text-decoration: none;
 }
 .contacts-block__item a:hover {
-  color: #304CFD;
+  color: #ef3239;
 }
 .contacts-block .font-icon {
   font-size: 18px;
@@ -1732,7 +1732,7 @@ iframe {
   }
 }
 .swiper-pagination-bullet-active {
-  background: #304CFD;
+  background: #ef3239;
   width: 20px;
 }
 @media only screen and (max-width: 580px) {
@@ -1778,7 +1778,7 @@ iframe {
 }
 .timeline__item::before {
   content: '';
-  background-color: #304CFD;
+  background-color: #ef3239;
   box-shadow: 0 0 0 3px rgba(48, 76, 253, 0.25);
   border-radius: 50%;
   position: absolute;
@@ -1829,7 +1829,7 @@ iframe {
   margin-bottom: 0;
 }
 .progress-bar {
-  background-color: #304CFD;
+  background-color: #ef3239;
   border-radius: 1rem;
   overflow: hidden;
   position: relative;
@@ -1945,7 +1945,7 @@ iframe {
     padding-right: 0;
   }
   .filter__item.active a {
-    color: #304CFD;
+    color: #ef3239;
   }
   .filter__link {
     color: #8697A8;
@@ -2024,7 +2024,7 @@ iframe {
     cursor: pointer;
   }
   .select ul li:hover {
-    background-color: #304cfd;
+    background-color: #ef3239;
   }
   .select ul li:hover a {
     color: #fff;
@@ -2464,7 +2464,7 @@ iframe {
   }
 }
 .comment-box__footer li:hover {
-  color: #304CFD;
+  color: #ef3239;
 }
 .comment-box__footer li:last-child {
   margin-right: 0;
@@ -2569,7 +2569,7 @@ iframe {
 }
 
 .scroll-line {
-  background: #304CFD;
+  background: #ef3239;
   height: 3px;
   position: fixed;
   top: 0;
@@ -2604,7 +2604,7 @@ iframe {
   opacity: .7;
 }
 .social-auth .font-icon {
-  background-color: #304CFD;
+  background-color: #ef3239;
   border-radius: 50%;
   font-size: .75rem;
   padding: .4rem;

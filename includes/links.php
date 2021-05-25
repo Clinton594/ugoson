@@ -4,30 +4,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="format-detection" content="telephone=no"/>
 <meta name="format-detection" content="address=no"/>
-<meta name="author" content="Onuigbo Clinton" />
-<meta name="description" content="vCard" />
+<meta name="author" content="<?=$generic->name?>" />
+<meta name="description" content="<?=$generic->description?>" />
 
 <!-- Twitter data -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@ArtTemplates">
-<meta name="twitter:title" content="vCard">
-<meta name="twitter:description" content="vCard">
-<meta name="twitter:image" content="assets/images/social.html">
+<meta name="twitter:site" content="@__uncalledfor">
+<meta name="twitter:title" content="<?=$generic->name?>">
+<meta name="twitter:description" content="<?=$generic->description?>">
+<meta name="twitter:image" content="<?=$uri->site?>assets/images/favicons/favicon.png">
 
 <!-- Open Graph data -->
-<meta property="og:title" content="ArtTemplate" />
+<meta property="og:title" content="onuigbo.clinton" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="your url website" />
-<meta property="og:image" content="assets/images/social.html" />
-<meta property="og:description" content="vCard" />
-<meta property="og:site_name" content="vCard" />
+<meta property="og:url" content="<?=$uri->site?>" />
+<meta property="og:image" content="<?=$uri->site?>assets/images/favicons/favicon.png" />
+<meta property="og:description" content="<?=$generic->description?>" />
+<meta property="og:site_name" content="<?=$generic->name?>" />
 
 <!-- Favicons -->
-<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
-<link rel="shortcut icon" href="assets/images/favicons/favicon.png" type="image/png">
+<link rel="apple-touch-icon" sizes="144x144" href="<?=$uri->site?>assets/images/favicons/favicon.png<?=$cache_control?>">
+<link rel="apple-touch-icon" sizes="114x114" href="<?=$uri->site?>assets/images/favicons/favicon.png<?=$cache_control?>">
+<link rel="apple-touch-icon" sizes="72x72" href="<?=$uri->site?>assets/images/favicons/favicon.png<?=$cache_control?>">
+<link rel="apple-touch-icon" sizes="57x57" href="<?=$uri->site?>assets/images/favicons/favicon.png<?=$cache_control?>">
+<link rel="shortcut icon" href="<?=$uri->site?>assets/images/favicons/favicon.png<?=$cache_control?>" type="image/png">
 
 <!-- Styles -->
 <link rel="stylesheet" type="text/css" href="<?=$uri->site?>assets/styles/style.css<?=$cache_control?>"/>

@@ -13,20 +13,19 @@ if(!empty($ext)){
 
 $valid_pages 	= [
 	"" 					=> "views/home.php",
-  "about"     => "views/home.php",
   "resume"     => "views/resume.php",
   "blog"     => "views/blog.php",
-  "portfolio"     => "views/portfolio.php",
-  "contact"     => "views/contact.php",
+  "portfolio"     => "views/blog.php",
+  "competence"     => "views/competence.php",
   "post"     => "views/single-post.php",
 ];
 
 
-$cache_control = "?v=maiyc";
+$cache_control = "?v=clickable";
 $page_exists = isset($valid_pages[$uri->page_source]);
 if($page_exists == true){
   require_once($valid_pages[$uri->page_source]);
 }else{
-  require_once("views/not-found.php");
+  require_once("views/home.php");
 }
 ?>

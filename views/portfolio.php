@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>vCard - Portfolio</title>
+  <title><?=$generic->name?> - Portfolio</title>
   <?php require_once 'includes/links.php'; ?>
 </head>
 <body class="bg-triangles">
@@ -11,27 +11,15 @@
       <div class="row sticky-parent">
         <?php require_once 'includes/sidebar.php'; ?>
 
-        <!-- Content -->
         <div class="col-12 col-md-12 col-xl-9">
           <div class="box shadow pb-0">
-            <!-- Menu -->
-            <div class="circle-menu">
-              <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-              </div>
-            </div>
             <?php require_once 'includes/header.php'; ?>
 
-            <!-- About -->
             <div class="pb-2">
               <h1 class="title title--h1 title__separate">Portfolio</h1>
             </div>
 
-            <!-- Gallery -->
             <div class="pb-0">
-              <!-- Filter -->
               <div class="select">
                 <span class="placeholder">Select category</span>
                 <ul class="filter">
@@ -44,10 +32,8 @@
                 <input type="hidden" name="changemetoo"/>
               </div>
 
-              <!-- Content -->
               <div class="gallery-grid js-masonry js-filter-container">
                 <div class="gutter-sizer"></div>
-                <!-- Item 1 -->
                 <figure class="gallery-grid__item category-concept">
                   <div class="gallery-grid__image-wrap">
                     <img class="gallery-grid__image cover lazyload" src="assets/img/image_01.jpg" data-zoom alt="" />
@@ -58,7 +44,6 @@
                   </figcaption>
                 </figure>
 
-                <!-- Item 2 -->
                 <figure class="gallery-grid__item category-concept">
                   <div class="gallery-grid__image-wrap">
                     <img class="gallery-grid__image cover lazyload" src="assets/img/image_02.jpg" data-zoom alt="" />
@@ -69,7 +54,6 @@
                   </figcaption>
                 </figure>
 
-                <!-- Item 3 -->
                 <figure class="gallery-grid__item category-design">
                   <div class="gallery-grid__image-wrap">
                     <img class="gallery-grid__image cover lazyload" src="assets/img/image_03.jpg" data-zoom alt="" />
@@ -80,7 +64,6 @@
                   </figcaption>
                 </figure>
 
-                <!-- Item 4 -->
                 <figure class="gallery-grid__item category-design">
                   <div class="gallery-grid__image-wrap">
                     <img class="gallery-grid__image cover lazyload" src="assets/img/image_04.jpg" data-zoom alt="" />
@@ -91,7 +74,6 @@
                   </figcaption>
                 </figure>
 
-                <!-- Item 5 -->
                 <figure class="gallery-grid__item category-design">
                   <div class="gallery-grid__image-wrap">
                     <img class="gallery-grid__image cover lazyload" src="assets/img/image_05.jpg" data-zoom alt="" />
@@ -102,7 +84,6 @@
                   </figcaption>
                 </figure>
 
-                <!-- Item 6 -->
                 <figure class="gallery-grid__item category-life">
                   <div class="gallery-grid__image-wrap">
                     <img class="gallery-grid__image cover lazyload" src="assets/img/image_06.jpg" data-zoom alt="" />
@@ -113,7 +94,6 @@
                   </figcaption>
                 </figure>
 
-                <!-- Item 7 -->
                 <figure class="gallery-grid__item category-concept">
                   <div class="gallery-grid__image-wrap">
                     <img class="gallery-grid__image cover lazyload" src="assets/img/image_07.jpg" data-zoom alt="" />
@@ -124,7 +104,6 @@
                   </figcaption>
                 </figure>
 
-                <!-- Item 8 -->
                 <figure class="gallery-grid__item category-design">
                   <div class="gallery-grid__image-wrap">
                     <img class="gallery-grid__image cover lazyload" src="assets/img/image_08.jpg" data-zoom alt="" />
@@ -135,7 +114,6 @@
                   </figcaption>
                 </figure>
 
-                <!-- Item 9 -->
                 <figure class="gallery-grid__item category-life">
                   <div class="gallery-grid__image-wrap">
                     <img class="gallery-grid__image cover lazyload" src="assets/img/image_09.jpg" data-zoom alt="" />
@@ -149,8 +127,7 @@
             </div>
           </div>
 
-          <!-- Footer -->
-          <footer class="footer">© 2019 vCard</footer>
+          <footer class="footer">© <?=date("Y")?> Portfolio</footer>
         </div>
       </div>
     </div>

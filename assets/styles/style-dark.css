@@ -1,6 +1,6 @@
 /* ------------------------------------------------
  Author: ArtStyles (Art)
- 
+
  Template Name: vCard
  version: 1.0.1
 ------------------------------------------------ */
@@ -11,34 +11,34 @@
    - Checkbox
    - Select
    - Dropdown
-   
+
  - Typography
  - Preloader
- 
+
  - Shared
    - Box
    - Avatars
    - Social
    - Badges
    - Tooltips
-   
+
  - Sidebar
    - Contact list
-   
+
  - Cases
 
  - Testimonials
    - Carousel pagination
-   
+
  - Clients
  - Timeline
  - Progress
- 
+
  - Portfolio
    - Filter
-    
+
  - News
- 
+
  - Single post
    - Comments
    - Comment form
@@ -49,7 +49,7 @@
  - Other
    - Bact to top
    - Medium Zoom
-  
+
 ------------------------------------------------ */
 /* -----------------------------------------------------------------
     - General Styles
@@ -69,7 +69,7 @@ body {
 .input:focus, .textarea:focus, select:focus,
 .custom-select:focus {
   background-color: #272333;
-  border: 1px solid #304CFD;
+  border: 1px solid #ef3239;
   color: #fff;
 }
 
@@ -291,7 +291,7 @@ select option,
   background: #272333;
 }
 .swiper-pagination-bullet-active {
-  background: #304CFD;
+  background: #ef3239;
 }
 
 /* -----------------------------------------------------------------

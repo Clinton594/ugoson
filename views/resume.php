@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>About </title>
+  <title><?=$generic->name?> About </title>
   <?php require_once 'includes/links.php'; ?>
 </head>
 <body class="bg-triangles">
@@ -9,163 +9,94 @@
     <div class="container gutter-top">
       <div class="row sticky-parent">
         <?php require_once 'includes/sidebar.php'; ?>
-        <!-- Content -->
         <div class="col-12 col-md-12 col-xl-9">
           <div class="box shadow pb-0">
-            <!-- Menu -->
-            <div class="circle-menu">
-              <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-              </div>
-            </div>
             <?php require_once 'includes/header.php'; ?>
 
-            <!-- About -->
             <div class="pb-3">
               <h1 class="title title--h1 title__separate">Resume</h1>
             </div>
 
-            <!-- Experience -->
             <div class="pb-0">
               <div class="row">
                 <div class="col-12 col-lg-6">
-                  <h2 class="title title--h3"><img class="title-icon" src="http://netgon.net/artstyles/v-card/assets/icons/icon-education.svg" alt="" /> Education</h2>
-                  <div class="timeline">
-                    <!-- Item -->
-                    <article class="timeline__item">
-                      <h5 class="title title--h5 timeline__title">University School of the Arts</h5>
-                      <span class="timeline__period">2007 — 2009</span>
-                      <p class="timeline__description">Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.</p>
-                    </article>
-
-                    <!-- Item -->
-                    <article class="timeline__item">
-                      <h5 class="title title--h5 timeline__title">New York Academy of Art</h5>
-                      <span class="timeline__period">2005 — 2007</span>
-                      <p class="timeline__description">Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..</p>
-                    </article>
-
-                    <!-- Item -->
-                    <article class="timeline__item">
-                      <h5 class="title title--h5 timeline__title">High School of Art and Design</h5>
-                      <span class="timeline__period">2003 — 2005</span>
-                      <p class="timeline__description">Duis aute irure dolor in reprehenderit in voluptate, quila voluptas  mag odit aut fugit, sed consequuntur magni dolores eos.</p>
-                    </article>
-                  </div>
-                </div>
-
-                <div class="col-12 col-lg-6">
                   <h2 class="title title--h3"><img class="title-icon" src="http://netgon.net/artstyles/v-card/assets/icons/icon-experience.svg" alt="" /> Experience</h2>
                   <div class="timeline">
-                    <!-- Item -->
                     <article class="timeline__item">
-                      <h5 class="title title--h5 timeline__title">Creative Director</h5>
-                      <span class="timeline__period">2015 — Present</span>
-                      <p class="timeline__description">Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.</p>
+                      <h5 class="title title--h5 timeline__title">TEAM LEAD SOFTWARE DEVELOPMENT at DIGTIAL DREAMS LTD</h5>
+                      <span class="timeline__period">Oct 2018 — Mar 2021</span>
+                      <p class="timeline__description">
+                        • Handles all software related issues from the Software Department.<br>
+                        • Assign tasks and handle reportS.
+                      </p>
+                      <hr>
                     </article>
 
-                    <!-- Item -->
                     <article class="timeline__item">
-                      <h5 class="title title--h5 timeline__title">Art Director</h5>
-                      <span class="timeline__period">2013 — 2015</span>
-                      <p class="timeline__description">Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.</p>
+                      <h5 class="title title--h5 timeline__title">JUNIOR WEB DEVELOPER at DIGTIAL DREAMS LTD</h5>
+                      <span class="timeline__period">May 2017 — Oct 2018</span>
+                      <p class="timeline__description">
+                        • Developing and Maintaining the company’s Software Applications<br>
+                        • Developing and Maintaining Client’s Software<br>
+                        • Technical support on any assigned software project<br>
+                      </p>
+                      <hr>
                     </article>
 
-                    <!-- Item -->
                     <article class="timeline__item">
-                      <h5 class="title title--h5 timeline__title">Web Designer</h5>
-                      <span class="timeline__period">2010 — 2013</span>
-                      <p class="timeline__description">Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.</p>
+                      <h5 class="title title--h5 timeline__title">INDUSTRIAL TRAINEE at NORTH-SOUTH POWER COMPANY LTD, SHIRORO NIGER STATE</h5>
+                      <span class="timeline__period">Apr 2016 — Apr 2017</span>
+                      <p class="timeline__description">
+                        • Was an ICT and Science subject’s teacher for their staff school.
+                        • Underwent trainings at the power station on the working principles of a turbine.
+                        • Remotely working for Digital Dreams during my service year.
+                      </p>
+                      <hr>
+                    </article>
+
+                    <article class="timeline__item">
+                      <h5 class="title title--h5 timeline__title">TRAINEE INTERN at DIGITAL DEAMS LTD</h5>
+                      <span class="timeline__period">Nov 2015 — Apr 2016</span>
+                      <p class="timeline__description">
+                        • 6months internship on Web Development <br>
+                        • Working on clients’ projects while learning
+                      </p>
+                      <hr>
                     </article>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            <!-- Skills -->
-            <div class="box-inner box-inner--rounded">
-              <div class="row">
                 <div class="col-12 col-lg-6">
-                  <h2 class="title title--h3">Design Skills</h2>
-                  <div class="box box__second">
-                    <!-- Progress -->
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-text"><span>Web Design</span><span>80%</span></div>
-                      </div>
-                      <div class="progress-text"><span>Web Design</span></div>
-                    </div>
+                  <h2 class="title title--h3"><img class="title-icon" src="http://netgon.net/artstyles/v-card/assets/icons/icon-education.svg" alt="" /> Education</h2>
+                  <div class="timeline">
+                    <article class="timeline__item">
+                      <h5 class="title title--h5 timeline__title">ENUGU STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY</h5>
+                      <span class="timeline__period">2010 — 2015</span>
+                      <p class="timeline__description">
+                        • Tertiary Education <br>
+                        • Mechanical Engineering<br>
+                        • B.Eng.<br>
+                        • C.G.P Available on request.
+                      </p>
+                    </article>
 
-                    <!-- Progress -->
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-text"><span>Graphic Design</span><span>75%</span></div>
-                      </div>
-                      <div class="progress-text"><span>Graphic Design</span></div>
-                    </div>
+                    <article class="timeline__item">
+                      <h5 class="title title--h5 timeline__title">SACRED HEART SEMINARY NSUDE, ENUGU STATE</h5>
+                      <span class="timeline__period">2003 — 2009</span>
+                      <p class="timeline__description">
+                        • Secondary Education <br>
+                        • Sciences <br>
+                        • SSCE <br>
+                        • Results available on request.
+                      </p>
+                    </article>
 
-                    <!-- Progress -->
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-text"><span>Photoshop</span><span>90%</span></div>
-                      </div>
-                      <div class="progress-text"><span>Photoshop</span></div>
-                    </div>
-
-                    <!-- Progress -->
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-text"><span>Illustrator</span><span>50%</span></div>
-                      </div>
-                      <div class="progress-text"><span>Illustrator</span></div>
-                    </div>
                   </div>
                 </div>
 
-                <div class="col-12 col-lg-6 mt-4 mt-lg-0">
-                  <h2 class="title title--h3">Coding Skills</h2>
-                  <div class="box box__second">
-                    <!-- Progress -->
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-text"><span>WordPress</span><span>70%</span></div>
-                      </div>
-                      <div class="progress-text"><span>WordPress</span></div>
-                    </div>
-
-                    <!-- Progress -->
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-text"><span>Javascript</span><span>70%</span></div>
-                      </div>
-                      <div class="progress-text"><span>Javascript</span></div>
-                    </div>
-
-                    <!-- Progress -->
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-text"><span>HTML</span><span>100%</span></div>
-                      </div>
-                      <div class="progress-text"><span>HTML</span></div>
-                    </div>
-
-                    <!-- Progress -->
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-text"><span>PHP</span><span>30%</span></div>
-                      </div>
-                      <div class="progress-text"><span>PHP</span></div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
-
-          <!-- Footer -->
-          <footer class="footer">© 2019 vCard</footer>
+          <footer class="footer">© <?=date("Y")?> Portfolio</footer>
         </div>
       </div>
     </div>

@@ -10,7 +10,15 @@ class Generic{
   public $local_servers = ['localhost', 'localhost:8080', "127.0.0.1", "192.168.43.80"];
   public $name = "Clinton Ugochukwu Onuigbo";
   public $email = "onuigbo.clinton8310@gmail.com";
-  public $phones = ["+2348075941561","+2347034458310"];
+  public $phones = ["GLO"=>"+2348075941561","MTN"=>"+2347034458310"];
+  public $description = "I am a Graduate of Mechanical Engineering with deep and progressive knowledge of Full-Stack web
+  development. I have been in active development for six (6) years working with PHP, JavaScripts, Node Js and I have built applications ranging from School management, Hotel management, Enterprise web apps,
+  APIs development, Database development and management.
+  A little bit of networking with IIS servers, Android development and Graphics designs.</p>
+  Currently I am learning BlockChain Techonology.
+  <p>
+  I seek to use my key strengths to work for a “growth-conscious” firm while developing on my
+  areas of low competencies.";
 
 
   public function __construct(){
@@ -53,7 +61,7 @@ class Generic{
     }
     $strict = ['expires' => time() + 36000,'path' => "/",'samesite' => 'lax'];
     // setcookie("siteData", "{$this->domain},{$this->backend},".absolute_filepath("{$this->domain}"), $strict);
-    setcookie("siteData", "{$this->domain},{$this->backend},".absolute_filepath("{$this->domain}"), time() + 36000, "/");
+    setcookie("siteData", "{$this->domain},".absolute_filepath("{$this->domain}"), time() + 36000, "/");
     return((object)[
       "page_source"=>explode("?",$page_source)[0],
       "content_id"=>explode("?",$content_id)[0],
@@ -62,7 +70,6 @@ class Generic{
       "parent_page"=>$parent_page,
       "site"=>$this->domain,
       "domain"=>$this->domain,
-      "backend"=>$this->domain.$this->backend
     ]);
   }
 

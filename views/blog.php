@@ -1,214 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>vCard - Blog</title>
+  <title><?=$generic->name?>'s Portfolio</title>
   <?php require_once 'includes/links.php'; ?>
 </head>
 <body class="bg-triangles">
-  <!-- Preloader -->
-  <div class="preloader">
-    <div class="preloader__wrap">
-      <div class="circle-pulse">
-        <div class="circle-pulse__1"></div>
-        <div class="circle-pulse__2"></div>
-      </div>
-      <div class="preloader__progress"><span></span></div>
-    </div>
-  </div>
 
   <main class="main">
     <div class="container gutter-top">
       <div class="row sticky-parent">
-        <!-- Sidebar -->
-        <aside class="col-12 col-md-12 col-xl-3">
-          <div class="sidebar box shadow pb-0 sticky-column">
-            <svg class="avatar avatar--180" viewBox="0 0 188 188">
-              <g class="avatar__box">
-                <image xlink:href="assets/img/avatar-1.jpg" height="100%" width="100%" />
-              </g>
-            </svg>
-            <div class="text-center">
-              <h3 class="title title--h3 sidebar__user-name"><span class="weight--500">Felecia</span> Brown</h3>
-              <div class="badge badge--dark">Creative Director</div>
 
-              <!-- Social -->
-              <div class="social">
-                <a class="social__link" href="https://www.facebook.com/"><i class="font-icon icon-facebook"></i></a>
-                <a class="social__link" href="https://www.behance.com/"><i class="font-icon icon-twitter"></i></a>
-                <a class="social__link" href="https://www.linkedin.com/"><i class="font-icon icon-linkedin2"></i></a>
-              </div>
-            </div>
+        <?php require_once 'includes/sidebar.php'; ?>
 
-            <div class="sidebar__info box-inner">
-              <ul class="contacts-block">
-                <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Birthday">
-                  <i class="font-icon icon-calendar"></i>March 12, 1995
-                </li>
-                <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Address">
-                  <i class="font-icon icon-location"></i>Hong Kong, China
-                </li>
-                <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="E-mail">
-                  <a href="mailto:example@mail.com"><i class="font-icon icon-envelope"></i>example@mail.com</a>
-                </li>
-                <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Phone">
-                  <i class="font-icon icon-phone"></i>+1 (070) 123-4567
-                </li>
-                <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Skype">
-                  <a href="skype:skype-example"><i class="font-icon icon-skype"></i>Felecia_Brown</a>
-                </li>
-              </ul>
-
-              <a class="btn" href="#"><i class="font-icon icon-download"></i> Download CV</a>
-            </div>
-          </div>
-        </aside>
-
-        <!-- Content -->
         <div class="col-12 col-md-12 col-xl-9">
           <div class="box shadow pb-0">
-            <!-- Menu -->
-            <div class="circle-menu">
-              <div class="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-              </div>
-            </div>
-            <div class="inner-menu js-menu">
-              <ul class="nav">
-                <li class="nav__item"><a href="about.html">About</a></li>
-                <li class="nav__item"><a href="resume.html">Resume</a></li>
-                <li class="nav__item"><a href="portfolio.html">Portfolio</a></li>
-                <li class="nav__item"><a class="active" href="blog.html">Blog</a></li>
-                <li class="nav__item"><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
 
-            <!-- About -->
+            <?php require_once 'includes/header.php'; ?>
+
             <div class="pb-2">
-              <h1 class="title title--h1 title__separate">Blog</h1>
+              <h1 class="title title--h1 title__separate">Portfolio</h1>
             </div>
 
-            <!-- News -->
             <div class="news-grid pb-0">
-              <!-- Post -->
               <article class="news-item box">
                 <div class="news-item__image-wrap overlay overlay--45">
-                  <div class="news-item__date">Sep 16, 2019</div>
-                  <a class="news-item__link" href="single-post.html"></a>
-                  <img class="cover lazyload" src="assets/img/image_02.jpg" alt="" />
+                  <div class="news-item__date">E-Commerce</div>
+                  <a class="news-item__link" href="https://ahiamoni.com"></a>
+                  <img class="cover lazyload" src="<?=$uri->site?>assets/images/ahiamoni.png" alt="" />
                 </div>
                 <div class="news-item__caption">
-                  <h2 class="title title--h4">Design Conferences in 2019</h2>
-                  <p>Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+                  <h2 class="title title--h4">Ahiamoni</h2>
+                  <p>Online Stores, Product Listing and Adverts</p>
                 </div>
               </article>
 
-              <!-- Post -->
               <article class="news-item box">
                 <div class="news-item__image-wrap overlay overlay--45">
-                  <div class="news-item__date">Sep 15, 2019</div>
-                  <a class="news-item__link" href="single-post.html"></a>
-                  <img class="cover lazyload" src="assets/img/image_06.jpg" alt="" />
+                  <div class="news-item__date">Finance</div>
+                  <a class="news-item__link" href="https://apexforexglobal.com/"></a>
+                  <img class="cover lazyload" src="<?=$uri->site?>assets/images/apex.png" alt="" />
                 </div>
                 <div class="news-item__caption">
-                  <h2 class="title title--h4">Best Fonts Every Designer</h2>
-                  <p>Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.</p>
+                  <h2 class="title title--h4">Apex Forex Global</h2>
+                  <p>Forex and Crypto Investments Website.</p>
                 </div>
               </article>
 
-              <!-- Post -->
               <article class="news-item box">
                 <div class="news-item__image-wrap overlay overlay--45">
-                  <div class="news-item__date">Sep 14, 2019</div>
-                  <a class="news-item__link" href="single-post.html"></a>
-                  <img class="cover lazyload" src="assets/img/image_08.jpg" alt="" />
+                  <div class="news-item__date">Transport & Logistics</div>
+                  <a class="news-item__link" href="https://skylinkng.com/"></a>
+                  <img class="cover lazyload" src="<?=$uri->site?>assets/images/booking.png" alt="" />
                 </div>
                 <div class="news-item__caption">
-                  <h2 class="title title--h4">Design Digest #80</h2>
-                  <p>Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.</p>
+                  <h2 class="title title--h4">Skylink Transport & Logistics</h2>
+                  <p>Enug Based Transport and Logistics Company with Routes (Lagos, Abuja, Owerri)</p>
                 </div>
               </article>
 
-              <!-- Post -->
+
               <article class="news-item box">
                 <div class="news-item__image-wrap overlay overlay--45">
-                  <div class="news-item__date">Sep 13, 2019</div>
-                  <a class="news-item__link" href="single-post.html"></a>
-                  <img class="cover lazyload" src="assets/img/image_07.jpg" alt="" />
+                  <div class="news-item__date">Compay</div>
+                  <a class="news-item__link" href="https://digitaldreamsng.com/"></a>
+                  <img class="cover lazyload" src="<?=$uri->site?>assets/images/digitaldreams.png" alt="" />
                 </div>
                 <div class="news-item__caption">
-                  <h2 class="title title--h4">UI Interactions of the week</h2>
-                  <p>Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.</p>
+                  <h2 class="title title--h4">Digital Dreams</h2>
+                  <p>One of the leading IT firms in Nigeria registered by corporate affairs commission of Nigeria in September 2007 with registration No. RC 708352.</p>
                 </div>
               </article>
 
-              <!-- Post -->
               <article class="news-item box">
                 <div class="news-item__image-wrap overlay overlay--45">
-                  <div class="news-item__date">Sep 12, 2019</div>
-                  <a class="news-item__link" href="single-post.html"></a>
-                  <img class="cover lazyload" src="assets/img/image_05.jpg" alt="" />
+                  <div class="news-item__date">Real Estates</div>
+                  <a class="news-item__link" href="https://geohomesgroup.com/"></a>
+                  <img class="cover lazyload" src="<?=$uri->site?>assets/images/geohomes.png" alt="" />
                 </div>
                 <div class="news-item__caption">
-                  <h2 class="title title--h4">The Forgotten Art of Spacing</h2>
-                  <p>Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <h2 class="title title--h4">GeoHomes Group</h2>
+                  <p>Leading Real Estate Company In Nigeria known for establishing Real Estate Solutions.</p>
                 </div>
               </article>
-
-              <!-- Post -->
               <article class="news-item box">
                 <div class="news-item__image-wrap overlay overlay--45">
-                  <div class="news-item__date">Sep 15, 2019</div>
-                  <a class="news-item__link" href="single-post.html"></a>
-                  <img class="cover lazyload" src="assets/img/image_01.jpg" alt="" />
+                  <div class="news-item__date">Finacial</div>
+                  <a class="news-item__link" href="https://dgitpay.com/"></a>
+                  <img class="cover lazyload" src="<?=$uri->site?>assets/images/dgitpay.png" alt="" />
                 </div>
                 <div class="news-item__caption">
-                  <h2 class="title title--h4">Design Digest #79</h2>
-                  <p>Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.</p>
+                  <h2 class="title title--h4">Dgit Pay</h2>
+                  <p>Get Paid trading, buying and Selling Ownership of your valueable assets.</p>
                 </div>
               </article>
             </div>
           </div>
 
-          <!-- Footer -->
-          <footer class="footer">© 2019 vCard</footer>
+          <footer class="footer">© <?=date("Y")?> Portfolio</footer>
         </div>
       </div>
     </div>
   </main>
 
-  <div class="back-to-top"></div>
+  <?php require_once 'includes/footer.php'; ?>
 
-  <!-- SVG masks -->
-  <svg class="svg-defs">
-    <clipPath id="avatar-box">
-      <path d="M1.85379 38.4859C2.9221 18.6653 18.6653 2.92275 38.4858 1.85453 56.0986.905299 77.2792 0 94 0c16.721 0 37.901.905299 55.514 1.85453 19.821 1.06822 35.564 16.81077 36.632 36.63137C187.095 56.0922 188 77.267 188 94c0 16.733-.905 37.908-1.854 55.514-1.068 19.821-16.811 35.563-36.632 36.631C131.901 187.095 110.721 188 94 188c-16.7208 0-37.9014-.905-55.5142-1.855-19.8205-1.068-35.5637-16.81-36.63201-36.631C.904831 131.908 0 110.733 0 94c0-16.733.904831-37.9078 1.85379-55.5141z"/>
-    </clipPath>
-    <clipPath id="avatar-hexagon">
-      <path d="M0 27.2891c0-4.6662 2.4889-8.976 6.52491-11.2986L31.308 1.72845c3.98-2.290382 8.8697-2.305446 12.8637-.03963l25.234 14.31558C73.4807 18.3162 76 22.6478 76 27.3426V56.684c0 4.6805-2.5041 9.0013-6.5597 11.3186L44.4317 82.2915c-3.9869 2.278-8.8765 2.278-12.8634 0L6.55974 68.0026C2.50414 65.6853 0 61.3645 0 56.684V27.2891z"/>
-    </clipPath>
-  </svg>
-
-  <!-- Demo Menu -->
-  <div class="btnSlideNav slideOpen"></div>
-  <div class="btnSlideNav slideClose"></div>
-  <ul class="slideNav">
-    <li class="slideNav__item"><h4 class="title title--5">More pages</h4></li>
-    <li class="slideNav__item"><a href="background-2.html">1. Background turquoise</a></li>
-    <li class="slideNav__item"><a href="background-3.html">2. Background green</a></li>
-    <li class="slideNav__item"><a href="menu_alternative/about.html">3. Alternative menu</a></li>
-  </ul>
-  <div class="overlay-slideNav"></div>
-  <!-- Demo Menu -->
-
-  <!-- JavaScripts -->
-  <script src="assets/js/jquery-3.4.1.min.js"></script>
-  <script src="assets/js/plugins.js"></script>
-  <script src="assets/js/common.js"></script>
-
-  <script src="assets/demo/plugins-demo.js"></script>
 </body>
-
-<!-- Mirrored from netgon.net/artstyles/v-card/dark/blog.html by HTTrack Website Copier/3.x [XR&CO'2008], Sat, 16 Nov 2019 06:06:50 GMT -->
 </html>

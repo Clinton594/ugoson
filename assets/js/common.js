@@ -122,7 +122,7 @@ $(document).ready(function() {
     $sideNavOpen.on('click', function() {
         tl.reversed() ? tl.play() : tl.reverse();
     });
-    $sideNavOpen.click();
+    if (!isMobile) $sideNavOpen.click();
 
 
     /*-----------------------------------------------------------------
