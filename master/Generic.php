@@ -52,7 +52,7 @@ class Generic{
     }else{
     	$site = str_replace("www.","",$server) ;
     	$this->domain = "https://".str_replace("https://","",$server)."/" ;
-    	$site_name = str_replace("https://","",$server);
+    	$site_name = str_replace("http://","",$server);
     	$page_source = !empty($request_uri[1]) ? $request_uri[1] : '';
     	$content_id = !empty($request_uri[2]) ? $request_uri[2] : null;
     	$event = !empty($request_uri[3]) ? $request_uri[3] : null;
