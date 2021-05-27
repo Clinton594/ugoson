@@ -23,7 +23,7 @@
             <div class="pb-0">
               <div class="row">
                 <div class="col-12 col-lg-6">
-                  <h2 class="title title--h3"><img class="title-icon" src="http://netgon.net/artstyles/v-card/assets/icons/icon-experience.svg" alt="" /> Experience</h2>
+                  <h2 class="title title--h3"><img class="title-icon" src="<?=$uri->site?>assets/icons/icon-experience.svg" alt="" /> Experience</h2>
                   <div class="timeline">
                     <article class="timeline__item">
                       <h5 class="title title--h5 timeline__title">SENIOR SOFTWARE DEVELOPER at DIGTIAL DREAMS LTD</h5>
@@ -70,7 +70,7 @@
                   </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                  <h2 class="title title--h3"><img class="title-icon" src="http://netgon.net/artstyles/v-card/assets/icons/icon-education.svg" alt="" /> Education</h2>
+                  <h2 class="title title--h3"><img class="title-icon" src="<?=$uri->site?>assets/icons/icon-education.svg" alt="" /> Education</h2>
                   <div class="timeline">
                     <article class="timeline__item">
                       <h5 class="title title--h5 timeline__title">ENUGU STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY</h5>
@@ -201,7 +201,7 @@
               <!--  Leadership -->
               <div class="row">
                 <div class="col-md-12">
-                  <h2 class="title title--h3"><img class="title-icon" src="http://netgon.net/artstyles/v-card/assets/icons/icon-experience.svg" alt="" /> Leadership Events</h2>
+                  <h2 class="title title--h3"><img class="title-icon" src="<?=$uri->site?>assets/icons/icon-experience.svg" alt="" /> Leadership Events</h2>
                   <div class="gallery-grid js-masonry js-filter-container">
                     <div class="gutter-sizer"></div>
                     <figure class="gallery-grid__item category-concept">
