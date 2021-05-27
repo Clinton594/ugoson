@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title><?=$generic->name?> - Portfolio</title>
+  <title><?=$generic->name?> | My Portfolio</title>
   <?php require_once 'includes/links.php'; ?>
 </head>
 <body class="bg-triangles">
@@ -125,7 +125,7 @@
                 </figure>
               </div>
             </div>
-            
+
           </div>
 
           <footer class="footer">© <?=date("Y")?> Portfolio</footer>

@@ -61,7 +61,7 @@
 
               <article class="news-item box">
                 <div class="news-item__image-wrap overlay overlay--45">
-                  <div class="news-item__date">Compay</div>
+                  <div class="news-item__date">Company</div>
                   <a class="news-item__link" href="https://digitaldreamsng.com/"></a>
                   <img class="cover lazyload" src="<?=$uri->site?>assets/images/digitaldreams.png" alt="" />
                 </div>
@@ -84,7 +84,7 @@
               </article>
               <article class="news-item box">
                 <div class="news-item__image-wrap overlay overlay--45">
-                  <div class="news-item__date">Finacial</div>
+                  <div class="news-item__date">Finance</div>
                   <a class="news-item__link" href="https://dgitpay.com/"></a>
                   <img class="cover lazyload" src="<?=$uri->site?>assets/images/dgitpay.png" alt="" />
                 </div>

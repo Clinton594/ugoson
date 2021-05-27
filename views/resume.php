@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title><?=$generic->name?> About </title>
+  <title><?=$generic->name?> | About Me </title>
   <?php require_once 'includes/links.php'; ?>
   <style media="screen">
     .box__second ul strong{margin-left: -20px}

@@ -19,11 +19,6 @@
     <div class="text-center">
       <h3 class="title title--h3 sidebar__user-name"><?=$generic->name?></h3>
       <div class="badge badge--dark">Fullstack Web Developer</div>
-
-      <!-- Social -->
-      <div class="social">
-        <a class="social__link" href="https://web.facebook.com/Clinton594"><i class="font-icon icon-facebook"></i></a>
-      </div>
     </div>
 
     <div class="sidebar__info box-inner">
@@ -31,14 +26,17 @@
         <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="linkedIn">
           <a href="https://www.linkedin.com/in/clinton-onuigbo-a5112810b/"><i class="font-icon icon-phone"></i>linkedIn Profile</a>
         </li>
-        <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="E-mail">
-          <a href="mailto:<?=$generic->email?>"><i class="font-icon icon-envelope"></i><?=$generic->email?></a>
+        <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="WhatsApp">
+          <a href="whatsapp://send?phone=<?=$generic->phones["GLO"]?>"><i class="font-icon icon-phone"></i>WhatsApp</a>
         </li>
         <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Phone">
-          <i class="font-icon icon-phone"></i><?=$generic->phones["MTN"]?>
+          <a href="tel://<?=$generic->phones["GLO"]?>"><i class="font-icon icon-phone"></i><?=$generic->phones["GLO"]?></a>
+        </li>
+        <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Facebook">
+          <a href="https://web.facebook.com/Clinton594"><i class="font-icon icon-facebook"></i> Facebook Profile</a>
         </li>
       </ul>
-      <a class="btn" href="mailto:<?=$generic->email?>"><i class="font-icon icon-envelope"></i> <small>Get in Touch</small>
+      <a class="btn" href="mailto:<?=$generic->email?>"><i class="font-icon icon-envelope"></i> <small>Get in Touch [Email]</small>
       </a>
     </div>
   </div>
