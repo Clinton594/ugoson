@@ -108,11 +108,18 @@
                         <strong><u>Backend</u> </strong>
                         <li>Advanced PHP</li>
                         <li>Node JS</li>
+                        <li>Solidity</li>
                         <li>Rest API</li>
                         <strong><u>Frontend</u> </strong>
                         <li>HTML, XML, SVG & CSS</li>
                         <li>JavaScript Vanilla (ES6)</li>
-                        <li>JavaScript Frameworks (JQuery)</li>
+                        <li>
+                          <u>JavaScript Frameworks & Libraries</u>
+                          <ul>
+                            <li>JQuery Js</li>
+                            <li>React Js</li>
+                          </ul>
+                        </li>
                         <strong><u>DataBases</u> </strong>
                         <li>MySQL Database</li>
                         <li>FireBase</li>
@@ -158,7 +165,12 @@
                           <div class="progress-text"><span>JQuery JS</span><span>97%</span></div>
                         </div>
                       </div>
-
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-text"><span>FireBase & Mongo DB</span><span></span></div>
+                        </div>
+                        <div class="progress-text"><span>FireBase & Mongo DB</span><span>50%</span></div>
+                      </div>
 
                     </div>
                   </div>
@@ -174,6 +186,12 @@
 
                       <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-text"><span>React Js</span></div>
+                        </div>
+                        <div class="progress-text"><span>React Js</span><span>30%</span></div>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
                           <div class="progress-text"><span>Java</span></div>
                         </div>
                         <div class="progress-text"><span>Java</span><span>30%</span></div>
@@ -187,11 +205,13 @@
                       </div>
 
                       <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                          <div class="progress-text"><span>FireBase & Mongo DB</span><span></span></div>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-text"><span>Python</span><span></span></div>
                         </div>
-                        <div class="progress-text"><span>FireBase & Mongo DB</span><span>50%</span></div>
+                        <div class="progress-text"><span>Python</span><span>10%</span></div>
                       </div>
+
+
 
                     </div>
                   </div>
