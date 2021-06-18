@@ -19,7 +19,7 @@ $valid_pages 	= [
 ];
 
 
-$cache_control = "?v=local-images";
+$cache_control = "?v=icons";
 $page_exists = isset($valid_pages[$uri->page_source]);
 if($page_exists == true){
   require_once($valid_pages[$uri->page_source]);

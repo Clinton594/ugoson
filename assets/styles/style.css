@@ -1771,7 +1771,7 @@ iframe {
 }
 .timeline__item::before {
   content: '';
-  background-color: #ef3239;
+  background-color: orange;
   box-shadow: 0 0 0 3px rgba(48, 76, 253, 0.25);
   border-radius: 50%;
   position: absolute;

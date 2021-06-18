@@ -29,7 +29,7 @@
               <div class="row">
                 <div class="col-12 col-lg-6">
                   <div class="case-item box box__second">
-                    <img class="case-item__icon" src="<?=$uri->site?>assets/icons/browser-web-development-svgrepo-com.svg" alt="" />
+                    <img class="case-item__icon" src="<?=$uri->site?>assets/icons/browser-web-development-svgrepo-com.svg<?=$cache_control?>" alt="" />
                     <div>
                       <h3 class="title title--h5">BackEnd Web Development</h3>
                       <p class="case-item__caption">High-quality and professional development of websites at the professional level.</p>
