@@ -63,58 +63,46 @@
             </div>
 
             <div class="box-inner">
-              <h2 class="title title--h3">Recent Projects</h2>
+              <h2 class="title title--h3">My Personal Tools | Plugins</h2>
 
               <div class="swiper-container js-carousel-review">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide review-item">
-                    <svg class="avatar avatar--80" viewBox="0 0 84 84">
-                      <g class="avatar__hexagon">
-                        <image xlink:href="https://ahiamoni.com/assets/picture/img/ahiamoni_icon_color_1.svg" height="100%" width="100%" />
-                      </g>
-                    </svg>
-                    <h4 class="title title--h5">Ahiamoni</h4>
-                    <p class="review-item__caption">Online Product Listing Services, Buy, Sell, Shop, Explore products and services, Advertize Etc.</p>
+                    <a href="http://whatsapp.ugoson.com/">
+                      <svg class="avatar avatar--80" viewBox="0 0 84 84">
+                        <g class="avatar__hexagon">
+                          <image xlink:href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/479px-WhatsApp.svg.png" height="100%" width="100%" />
+                        </g>
+                      </svg>
+                      <h4 class="title title--h5">WhatsApp Instant Chat</h4>
+                      <p class="review-item__caption">No need to worry about saving stranger's contacts anymore on your phone, just generate a link to directly chat with them.</p>
+                    </a>
                   </div>
 
                   <div class="swiper-slide review-item">
-                    <svg class="avatar avatar--80" viewBox="0 0 84 84">
-                      <g class="avatar__hexagon">
-                        <image xlink:href="https://apexforexglobal.com/assets/image/logos/logo.png" height="100%" width="100%" />
-                      </g>
-                    </svg>
-                    <h4 class="title title--h5">Apex Forex Global</h4>
-                    <p class="review-item__caption">Professional Trading Platform for Exchange rates, Foreign Exchange, Bitcoin, Crypto Investments</p>
+                    <a href="http://contacts.ugoson.com/">
+                      <svg class="avatar avatar--80" viewBox="0 0 84 84">
+                        <g class="avatar__hexagon">
+                          <image xlink:href="https://www.svgrepo.com/show/52799/phone.svg" height="100%" width="100%" />
+                        </g>
+                      </svg>
+                      <h4 class="title title--h5">Phone Number Extractor</h4>
+                      <p class="review-item__caption">Neatly Extract phone numbers from a 'txt', 'vcf', 'doc', 'docx' file and choose how you format them for easier bulk SMS.</p>
+                    </a>
                   </div>
 
                   <div class="swiper-slide review-item">
-                    <svg class="avatar avatar--80" viewBox="0 0 84 84">
-                      <g class="avatar__hexagon">
-                        <image xlink:href="<?=$uri->site?>assets/icons/digital-dreams.png" height="auto" width="100%" />
-                      </g>
-                    </svg>
-                    <h4 class="title title--h5">Digital Dreams LTD</h4>
-                    <p class="review-item__caption">Company Website for the Biggest ICT Academy in Enugu</p>
-                  </div>
-                  <div class="swiper-slide review-item">
-                    <svg class="avatar avatar--80" viewBox="0 0 84 84">
-                      <g class="avatar__hexagon">
-                        <image xlink:href="https://skylinkng.com/assets/img/logo.png"  width="100%" />
-                      </g>
-                    </svg>
-                    <h4 class="title title--h5">Skylink Transport & Logistics</h4>
-                    <p class="review-item__caption">A transport, travels and logistics services company</p>
+                    <a href="http://html2jquery.ugoson.com/">
+                      <svg class="avatar avatar--80" viewBox="0 0 84 84">
+                        <g class="avatar__hexagon">
+                          <image xlink:href="https://www.svgrepo.com/show/303205/html-5-logo.svg" height="auto" width="100%" />
+                        </g>
+                      </svg>
+                      <h4 class="title title--h5">HTML to JQuery Converter</h4>
+                      <p class="review-item__caption">Convert your HTML markup codes to JQuery code in an instant. Just copy and paste, then you'll get your result.</p>
+                    </a>
                   </div>
 
-                  <div class="swiper-slide review-item">
-                    <svg class="avatar avatar--80" viewBox="0 0 84 84">
-                      <g class="avatar__hexagon">
-                        <image xlink:href="https://dgitpay.com/img/logo.png?v=maiyc" width="100%" />
-                      </g>
-                    </svg>
-                    <h4 class="title title--h5">Dgit Pay</h4>
-                    <p class="review-item__caption">Finacial Investments Company</p>
-                  </div>
                 </div>
 
                 <div class="swiper-pagination"></div>
