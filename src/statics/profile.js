@@ -108,7 +108,7 @@ const profile = {
   ],
   portfolio: [
     {
-      image: "/assets/images/ahiamoni.png",
+      image: "assets/images/ahiamoni.png",
       title: "Ahiamoni",
       category: "E-Commerce",
       description: "Online Stores, Product Listing and Adverts",
@@ -116,7 +116,7 @@ const profile = {
       disabled: true,
     },
     {
-      image: "/assets/images/geohomes.png",
+      image: "assets/images/geohomes.png",
       title: "GeoHomes Group",
       category: "Real Estates",
       description: "Residential Developments, Commercial Developments and Estate Planing",
@@ -124,7 +124,7 @@ const profile = {
       disabled: false,
     },
     {
-      image: "/assets/images/lendtrx-wallet.png",
+      image: "assets/images/lendtrx-wallet.png",
       title: "LendTRX Wallet",
       category: "Blockchain",
       description: "OffChain Wallet, Send, Recieve and Swap Crypto.",
@@ -132,7 +132,7 @@ const profile = {
       disabled: false,
     },
     {
-      image: "/assets/images/cointerra.png",
+      image: "assets/images/cointerra.png",
       title: "CoinTerra",
       category: "Finance",
       description: "Crypto Investments, Forex Investments",
