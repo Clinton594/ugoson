@@ -1,7 +1,14 @@
 import Preloader from "./modules/Preloader"; 
 import Sidebar from "./modules/Sidebar"; 
-// import Navbar from "./modules/Navbar";
-// import Footer from "./modules/Footer";
+import Navbar from "./modules/Navbar";
+import Footer from "./modules/Footer";
+import About from "./modules/AboutMe";
+import Competence from "./modules/Competence";
+import Resume from "./modules/Resume";
+import Portfolio from "./modules/Portfolio";
+import Events from "./modules/Events";
+
+
 function App() {
   return (
     <main className="main">
@@ -13,11 +20,15 @@ function App() {
 
           <div className="col-12 col-md-12 col-xl-9">
             <div className="box shadow pb-0">
-
-              {/* <Navbar/> */}
-              {/* <Footer/> */}    
+              <Navbar/>
+              <About/>
+              <Competence/>
+              <Resume/>
+              <Events/>
+              <Portfolio/>
             </div>
           </div>
+          <Footer/>
         </div>
       </div>
     </main>

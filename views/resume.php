@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title><?=$generic->name?> | About Me </title>
+  <title><?= $generic->name ?> | About Me </title>
   <?php require_once 'includes/links.php'; ?>
   <style media="screen">
-    .box__second ul strong{margin-left: -20px}
+    .box__second ul strong {
+      margin-left: -20px
+    }
   </style>
 </head>
+
 <body class="bg-triangles">
   <main class="main">
     <div class="container gutter-top">
@@ -16,93 +20,14 @@
           <div class="box shadow pb-0">
             <?php require_once 'includes/header.php'; ?>
 
-            <div class="pb-3">
-              <h1 class="title title--h1 title__separate">Resume</h1>
-            </div>
 
             <div class="pb-0">
-              <div class="row">
-                <div class="col-12 col-lg-6">
-                  <h2 class="title title--h3"><img class="title-icon" src="<?=$uri->site?>assets/icons/icon-experience.svg<?=$cache_control?>" alt="" /> Experience</h2>
-                  <div class="timeline">
-                    <article class="timeline__item">
-                      <h5 class="title title--h5 timeline__title">SENIOR SOFTWARE DEVELOPER at DIGTIAL DREAMS LTD</h5>
-                      <span class="timeline__period">Oct 2018 — Mar 2021</span>
-                      <p class="timeline__description">
-                        • Team Lead.<br>
-                        • Handles all software related issues from the Software Department.<br>
-                        • Assign tasks and handle reportS.
-                      </p>
-                      <hr>
-                    </article>
 
-                    <article class="timeline__item">
-                      <h5 class="title title--h5 timeline__title">JUNIOR WEB DEVELOPER at DIGTIAL DREAMS LTD</h5>
-                      <span class="timeline__period">May 2017 — Oct 2018</span>
-                      <p class="timeline__description">
-                        • Developing and Maintaining the company’s Software Applications<br>
-                        • Developing and Maintaining Client’s Software<br>
-                        • Technical support on any assigned software project<br>
-                      </p>
-                      <hr>
-                    </article>
-
-                    <article class="timeline__item">
-                      <h5 class="title title--h5 timeline__title">INDUSTRIAL TRAINEE at NORTH-SOUTH POWER COMPANY LTD, SHIRORO NIGER STATE</h5>
-                      <span class="timeline__period">Apr 2016 — Apr 2017</span>
-                      <p class="timeline__description">
-                        • Was an ICT and Science subject’s teacher for their staff school.
-                        • Underwent trainings at the power station on the working principles of a turbine.
-                        • Remotely working for Digital Dreams during my service year.
-                      </p>
-                      <hr>
-                    </article>
-
-                    <article class="timeline__item">
-                      <h5 class="title title--h5 timeline__title">TRAINEE INTERN at DIGITAL DEAMS LTD</h5>
-                      <span class="timeline__period">Nov 2015 — Apr 2016</span>
-                      <p class="timeline__description">
-                        • 6months internship on Web Development <br>
-                        • Working on clients’ projects while learning
-                      </p>
-                      <hr>
-                    </article>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                  <h2 class="title title--h3"><img class="title-icon" src="<?=$uri->site?>assets/icons/icon-education.svg<?=$cache_control?>" alt="" /> Education</h2>
-                  <div class="timeline">
-                    <article class="timeline__item">
-                      <h5 class="title title--h5 timeline__title">ENUGU STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY</h5>
-                      <span class="timeline__period">2010 — 2015</span>
-                      <p class="timeline__description">
-                        • Tertiary Education <br>
-                        • Mechanical Engineering<br>
-                        • B.Eng.<br>
-                        • C.G.P Available on request.
-                      </p>
-                    </article>
-
-                    <article class="timeline__item">
-                      <h5 class="title title--h5 timeline__title">SACRED HEART SEMINARY NSUDE, ENUGU STATE</h5>
-                      <span class="timeline__period">2003 — 2009</span>
-                      <p class="timeline__description">
-                        • Secondary Education <br>
-                        • Sciences <br>
-                        • SSCE <br>
-                        • Results available on request.
-                      </p>
-                    </article>
-
-                  </div>
-                </div>
-
-              </div>
 
               <div class="box-inner box-inner--rounded">
                 <div class="row">
                   <div class="col-12">
-                    <h2 class="title title--h3"><img class="title-icon" src="<?=$uri->site?>assets/icons/key-svgrepo-com.svg<?=$cache_control?>" alt="" />Key Competencies</h2>
+                    <h2 class="title title--h3"><img class="title-icon" src="<?= $uri->site ?>assets/icons/key-svgrepo-com.svg<?= $cache_control ?>" alt="" />Key Competencies</h2>
                     <div class="box box__second">
                       <ul>
                         <strong><u>Backend</u> </strong>
@@ -139,7 +64,8 @@
                 <div class="row">
                   <div class="col-12 col-lg-6">
                     <h2 class="title title--h3">
-                      <img class="title-icon" src="<?=$uri->site?>assets/icons/browser-web-development-svgrepo-com.svg<?=$cache_control?>" alt="" />Programming Skills</h2>
+                      <img class="title-icon" src="<?= $uri->site ?>assets/icons/browser-web-development-svgrepo-com.svg<?= $cache_control ?>" alt="" />Programming Skills
+                    </h2>
                     <div class="box box__second">
 
                       <div class="progress">
@@ -219,51 +145,15 @@
               </div>
 
               <!--  Leadership -->
-              <div class="row">
-                <div class="col-md-12">
-                  <h2 class="title title--h3">
-                    <img class="title-icon" src="<?=$uri->site?>assets/icons/add-svgrepo-com.svg<?=$cache_control?>" alt="" />
-                     Leadership Events</h2>
-                  <div class="gallery-grid js-masonry js-filter-container">
-                    <div class="gutter-sizer"></div>
-                    <figure class="gallery-grid__item category-concept">
-                      <div class="gallery-grid__image-wrap">
-                        <img class="gallery-grid__image cover lazyload" src="<?=$uri->site?>assets/images/gdg.jpeg" data-zoom alt="" />
-                      </div>
-                      <figcaption class="gallery-grid__caption">
-                        <h4 class="title gallery-grid__title">Google Business Group Enugu (GBG) 2019</h4>
-                        <span class="gallery-grid__category">Speaker on Google's Accelerated Mobile Pages (AMP)</span>
-                      </figcaption>
-                    </figure>
 
-                    <figure class="gallery-grid__item category-concept">
-                      <div class="gallery-grid__image-wrap">
-                        <img class="gallery-grid__image cover lazyload" src="<?=$uri->site?>assets/images/dreamshub.jpeg" data-zoom alt="" />
-                      </div>
-                      <figcaption class="gallery-grid__caption">
-                        <h4 class="title gallery-grid__title">Dreams ICT Tech Hub</h4>
-                        <span class="gallery-grid__category">Project Reviews with the Interns at Dreams Hub, Enugu</span>
-                      </figcaption>
-                    </figure>
-                    <figure class="gallery-grid__item category-concept">
-                      <div class="gallery-grid__image-wrap">
-                        <img class="gallery-grid__image cover lazyload" src="<?=$uri->site?>assets/images/intern.jpeg" data-zoom alt="" />
-                      </div>
-                      <figcaption class="gallery-grid__caption">
-                        <h4 class="title gallery-grid__title">Heading BootCamp program at Dreams Tech Hub</h4>
-                        <span class="gallery-grid__category">Handled the latest batch of Developer Interns for Digital Dreams</span>
-                      </figcaption>
-                    </figure>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
-          <footer class="footer">© <?=date("Y")?> Portfolio</footer>
+          <footer class="footer">© <?= date("Y") ?> Portfolio</footer>
         </div>
       </div>
     </div>
   </main>
   <?php require_once 'includes/footer.php'; ?>
 </body>
+
 </html>
