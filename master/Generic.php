@@ -11,14 +11,7 @@ class Generic{
   public $name = "Clinton Ugochukwu Onuigbo";
   public $email = "onuigbo.clinton8310@gmail.com";
   public $phones = ["GLO"=>"+2348075941561","MTN"=>"+2347034458310"];
-  public $description = "I am a Graduate of Mechanical Engineering with deep and progressive knowledge of Full-Stack web
-  development. I have been in active development for six (6) years working with PHP, JavaScripts, Node Js and I have built applications ranging from School management, Hotel management, Enterprise web apps,
-  APIs development, Database development and management.
-  A little bit of networking with IIS servers, Android development and Graphics designs.</p>
-  Currently I am learning BlockChain Techonology.
-  <p>
-  I seek to use my key strengths to work for a “growth-conscious” firm while developing on my
-  areas of low competencies.";
+  public $description = "";
 
 
   public function __construct(){
@@ -98,4 +91,3 @@ class Generic{
     return $response;
   }
 }
-?>
