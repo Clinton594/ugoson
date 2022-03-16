@@ -13,9 +13,10 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
     <title>Clinton Ugochukwu Onuigbo - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/styles/fontawesome-all.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/styles/style.css?a" />
     <link rel="stylesheet" type="text/css" href="assets/styles/style-dark.css?a" />
-    <link rel="stylesheet" type="text/css" href="assets/demo/style-demo.css?a" />
     <!--  -->
     <meta name="author" content="Clinton Ugochukwu Onuigbo" />
     <meta name="description" content="" class="content" />
@@ -35,8 +36,13 @@
     <meta property="og:description" content="" class="content" />
     <meta property="og:site_name" content="Clinton Ugochukwu Onuigbo" />
   </head>
-  <body>
+  <body class="bg-triangles">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script>
+      window.onload = () => {
+        document.getElementById("preloader").style.display = "none";
+      };
+    </script>
   </body>
 </html>

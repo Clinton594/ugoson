@@ -1,13 +1,5 @@
 <!-- Preloader -->
-<div class="preloader">
-  <div class="preloader__wrap">
-    <div class="circle-pulse">
-      <div class="circle-pulse__1"></div>
-      <div class="circle-pulse__2"></div>
-    </div>
-    <div class="preloader__progress"><span></span></div>
-  </div>
-</div>
+
 <!-- Sidebar -->
 <aside class="col-12 col-md-12 col-xl-3">
   <div class="sidebar box shadow pb-0 sticky-column">
@@ -17,26 +9,26 @@
       </g>
     </svg>
     <div class="text-center">
-      <h3 class="title title--h3 sidebar__user-name"><?=$generic->name?></h3>
+      <h3 class="title title--h3 sidebar__user-name"><?= $generic->name ?></h3>
       <div class="badge badge--dark">Fullstack Web Developer</div>
     </div>
 
     <div class="sidebar__info box-inner">
-      <ul class="contacts-block"  style="margin-bottom:0px ">
+      <ul class="contacts-block" style="margin-bottom:0px ">
         <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="linkedIn">
           <a href="https://www.linkedin.com/in/clinton-onuigbo-a5112810b/"><i class="font-icon icon-phone"></i>linkedIn Profile</a>
         </li>
         <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="WhatsApp">
-          <a href="whatsapp://send?phone=<?=$generic->phones["GLO"]?>"><i class="font-icon icon-phone"></i>WhatsApp</a>
+          <a href="whatsapp://send?phone=<?= $generic->phones["GLO"] ?>"><i class="font-icon icon-phone"></i>WhatsApp</a>
         </li>
         <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Phone">
-          <a href="tel://<?=$generic->phones["GLO"]?>"><i class="font-icon icon-phone"></i><?=$generic->phones["GLO"]?></a>
+          <a href="tel://<?= $generic->phones["GLO"] ?>"><i class="font-icon icon-phone"></i><?= $generic->phones["GLO"] ?></a>
         </li>
         <li class="contacts-block__item" data-toggle="tooltip" data-placement="top" title="Facebook">
           <a href="https://web.facebook.com/Clinton594"><i class="font-icon icon-facebook"></i> Facebook Profile</a>
         </li>
       </ul>
-      <a class="btn" href="mailto:<?=$generic->email?>"><i class="font-icon icon-envelope"></i> <small>Get in Touch [Email]</small>
+      <a class="btn" href="mailto:<?= $generic->email ?>"><i class="font-icon icon-envelope"></i> <small>Get in Touch [Email]</small>
       </a>
     </div>
   </div>
