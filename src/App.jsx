@@ -7,9 +7,16 @@ import Competence from "./modules/Competence";
 import Resume from "./modules/Resume";
 import Portfolio from "./modules/Portfolio";
 import Events from "./modules/Events";
+import { BrowserView, MobileView, isMobile } from "react-device-detect";
+import ScrollAnimation from "react-animate-on-scroll";
+import { scroller, $ } from "./statics/function";
+import { useEffect } from "react";
 
 
 function App() {
+  useEffect(()=>{
+    scroller($(".sidebar"))
+  }, [])
   return (
     <main className="main">
       <div className="container gutter-top">
@@ -21,11 +28,21 @@ function App() {
           <div className="col-12 col-md-12 col-xl-9">
             <div className="box shadow pb-0">
               <Navbar/>
-              <About/>
-              <Competence/>
-              <Resume/>
-              <Events/>
-              <Portfolio/>
+              <ScrollAnimation animateIn="slideInDown" animateOut="slideOutUp">
+                <About/>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn={isMobile ? "slideInDown" : "flipInY"} animateOut={isMobile ? "slideOutUp" : "flipOutY"}>
+                <Competence/>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn={isMobile ? "slideInDown" : "flipInY"} animateOut={isMobile ? "slideOutUp" : "flipOutY"}>
+                <Resume/>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn={isMobile ? "slideInDown" : "flipInY"} animateOut={isMobile ? "slideOutUp" : "flipOutY"}>
+                <Events/>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn={isMobile ? "slideInDown" : "flipInY"} animateOut={isMobile ? "slideOutUp" : "flipOutY"}>
+                <Portfolio/>
+              </ScrollAnimation>
             </div>
           </div>
           <Footer/>

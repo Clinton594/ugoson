@@ -1605,6 +1605,9 @@ iframe {
 
 .sticky-column.is_stuck {
   margin-top: 30px;
+  position: fixed;
+  top: 0;
+  width: 280px;
 }
 .sticky-column.is_stuck .avatar {
   margin-top: 0;
