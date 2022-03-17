@@ -4,8 +4,8 @@ import { isBrowser } from "react-device-detect";
 const scroller = (element) => {
   var timer = null;
   $(window).on("scroll", function () {
-    $(element).addClass("is_stuck");
     if (isBrowser) {
+      $(element).addClass("is_stuck");
       if (timer !== null) {
         clearTimeout(timer);
       }

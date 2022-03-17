@@ -842,17 +842,17 @@ iframe {
 }
 
 .circle-pulse__1 {
-  width: 6rem;
-  height: 6rem;
+  width: 3rem;
+  height: 3rem;
   margin-top: -3rem;
   margin-left: -3rem;
   background-color: #ef3239;
 }
 
 .circle-pulse__2 {
-  width: 4.8rem;
-  height: 4.8rem;
-  margin-top: -2.4rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-top: -1.2rem;
   margin-left: -2.4rem;
   background-color: rgba(48, 76, 253, 0.7);
   animation-delay: -0.8s;
