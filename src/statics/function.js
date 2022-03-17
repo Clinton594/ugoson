@@ -4,12 +4,14 @@ import { isBrowser } from "react-device-detect";
 const scroller = (element) => {
   var timer = null;
   $(window).on("scroll", function () {
+    $(element).addClass("is_stuck");
     if (isBrowser) {
       if (timer !== null) {
         clearTimeout(timer);
       }
       timer = setTimeout(function () {
-        if ($(window).scrollTop() > element.offset().top) {
+        console.log($(window).scrollTop(), element.offset().top);
+        if ($(window).scrollTop() < element.offset().top && $(window).scrollTop() > 100) {
           if (!$(element).hasClass("is_stuck")) {
             $(element).addClass("is_stuck");
           }
@@ -23,4 +25,8 @@ const scroller = (element) => {
   });
 };
 
-export { $, scroller };
+const isEven = (number) => {
+  return number % 2 === 0 ? 1 : 0;
+};
+
+export { $, scroller, isEven };

@@ -1146,6 +1146,9 @@ iframe {
   position: relative;
   transition: box-shadow 0.3s ease-in-out;
 }
+.box:not(.sidebar) {
+  overflow: hidden;
+}
 @media only screen and (max-width: 580px) {
   .box {
     padding: 20px;
