@@ -8,7 +8,7 @@ const profile = {
     airtel: "+2348075941561",
     mtn: "+2347034458310",
   },
-  bio: "I am a Graduate of Mechanical Engineering with deep and progressive knowledge of Full-Stack web development. I have been in active development for six (6) years working with PHP, JavaScripts, Node Js and I have built applications ranging from School management, Hotel management, Enterprise web apps, APIs development, Database development and management. A little bit of networking with IIS servers, Android development and Graphics designs. Currently I am learning BlockChain Techonology. I seek to use my key strengths to work for a “growth-conscious” firm while developing on my areas of low competencies",
+  bio: "I am a Full-Stack web developer. I have been in active development for seven (7) years working with PHP, JavaScripts, Node Js and I have built applications ranging from School management, Hotel management, Enterprise web apps, APIs development, Database development and management. Currently I am working on BlockChain Decentralized Applications. I seek to use my key strengths to work for a “growth-conscious” firm while developing on my areas of low competencies",
   features: [
     {
       image: "assets/icons/browser-web-development-svgrepo-com.svg",
