@@ -11,5 +11,5 @@
 
 #This will ignore all the  images inside folder and push the folder
 #/images/*
-node_modules
+/node_modules
 /build
