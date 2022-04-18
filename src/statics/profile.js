@@ -139,6 +139,14 @@ const profile = {
       link: "https://avaxdot.com",
       disabled: false,
     },
+    {
+      image: "assets/images/presale.png",
+      title: "Token Presale",
+      category: "Blockchain",
+      description: "Crypto token ICO project",
+      link: "https://clinton.github.io/presale",
+      disabled: false,
+    },
   ],
 };
 
