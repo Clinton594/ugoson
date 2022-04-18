@@ -1,0 +1,15 @@
+#To ignore the backend folder
+/assets/picture/
+/assets/documents
+/assets/audio
+/assets/video
+.zip
+/.htaccess
+.lock
+.json
+/cache
+
+#This will ignore all the  images inside folder and push the folder
+#/images/*
+node_modules/
+/build
