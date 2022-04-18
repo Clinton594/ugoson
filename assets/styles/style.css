@@ -1336,7 +1336,7 @@ iframe {
 }
 
 .gutter-top {
-  padding-top: 10rem;
+  padding-top: 8rem;
 }
 @media only screen and (max-width: 580px) {
   .gutter-top {
@@ -1352,7 +1352,7 @@ iframe {
 .avatar--180 {
   max-height: 180px;
   max-width: 180px;
-  height: 180px;
+  height: 160px;
   width: 180px;
 }
 .avatar--80 {
