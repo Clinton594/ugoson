@@ -29,7 +29,16 @@ export default function Portfolio() {
               </div>
               <div className="news-item__caption">
                 <h2 className="title title--h4">{project.title}</h2>
-                <p>{project.description}</p>
+                <p>
+                  {project.description}
+                  <br />(
+                  <span>
+                    <small>
+                      <i> {project.stack}</i>
+                    </small>
+                  </span>
+                  )
+                </p>
               </div>
             </ScrollAnimation>
           ))}

@@ -114,6 +114,7 @@ const profile = {
       description: "Online Stores, Product Listing and Adverts",
       link: "https://ahiamoni.com",
       disabled: true,
+      stack: "HTML, CSS, JavaScript (jQuery), PHP, MySQL",
     },
     {
       image: "assets/images/geohomes.png",
@@ -122,6 +123,7 @@ const profile = {
       description: "Residential Developments, Commercial Developments and Estate Planing",
       link: "https://geohomesgroup.com",
       disabled: false,
+      stack: "HTML, CSS, JavaScript (jQuery), PHP, MySQL",
     },
     {
       image: "assets/images/lendtrx-wallet.png",
@@ -130,6 +132,7 @@ const profile = {
       description: "OffChain Wallet, Send, Recieve and Swap Crypto.",
       link: "https://lendtrx.com",
       disabled: false,
+      stack: "Reactjs, Web3js, Solidity, Nodejs, MongoDB, Ethereum Blockchain",
     },
     {
       image: "assets/images/avaxdot.png",
@@ -138,14 +141,16 @@ const profile = {
       description: "Crypto Investments, Forex Investments",
       link: "https://avaxdot.com",
       disabled: false,
+      stack: "HTML, CSS, JavaScript (jQuery), PHP, MySQL",
     },
     {
       image: "assets/images/presale.png",
       title: "Token Presale",
       category: "Blockchain",
-      description: "Crypto token ICO project",
+      description: "Crypto token ICO project [currently in progress...]",
       link: "https://clinton.github.io/presale",
       disabled: false,
+      stack: "Nextjs, Web3js, Solidity, Bianance SmartChain",
     },
   ],
 };
