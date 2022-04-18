@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/ugoson/static/js/main.cfaf148d.js",
-    "index.html": "/ugoson/index.html",
-    "main.cfaf148d.js.map": "/ugoson/static/js/main.cfaf148d.js.map"
+    "main.js": "/static/js/main.01255258.js",
+    "index.html": "/index.html",
+    "main.01255258.js.map": "/static/js/main.01255258.js.map"
   },
   "entrypoints": [
-    "static/js/main.cfaf148d.js"
+    "static/js/main.01255258.js"
   ]
 }
