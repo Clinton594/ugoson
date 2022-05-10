@@ -8,7 +8,7 @@ const profile = {
     airtel: "+2348075941561",
     mtn: "+2347034458310",
   },
-  bio: "I am a Full-Stack web developer. With an industry experience of over 5 years, I would love to describe myself as : Strong in design and integration with intuitive problem-solving skills. Proficient in JAVASCRIPT, NODE, REACT, NEXT, TYPESCRIPT, PHP, and SQL. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. Currently I am working on BlockChain Decentralized Applications and seeking to use my key strengths to work for a “growth-conscious” firm while developing on my areas of low competencies",
+  bio: "I am a Full-Stack web developer. With an industry experience of over 5 years, I would love to describe myself as : Strong in design and integration with intuitive problem-solving skills. Proficient in Web based stacks  (JAVASCRIPT, NODEJS, EXPRESSJS, REACTJS, NEXTJS, TYPESCRIPT, PHP, MYSQL, MONGODB,) and BlockChain (SOLIDITY, WEB3JS, ETHERSJS, TRUFFLE, GANACHE). Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. Currently I am working on BlockChain Decentralized Applications and seeking to use my key strengths to work for a “growth-conscious” firm while developing on my areas of low competencies",
   features: [
     {
       image: "assets/icons/browser-web-development-svgrepo-com.svg",

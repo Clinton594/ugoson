@@ -14,7 +14,7 @@ export default function Sidebar() {
         </div>
 
         <div className="sidebar__info box-inner">
-          <ul className="contacts-block text-left" style={{ marginBottom: 0 }}>
+          <ul className="contacts-block d-flex flex-column text-center" style={{ marginBottom: 0 }}>
             <li className="contacts-block__item" data-toggle="tooltip" data-placement="top" title="linkedIn">
               <a target="_blank" href="https://www.linkedin.com/in/clinton-onuigbo-a5112810b/">
                 <i className="fab fa-linkedin mr-2"></i>LinkedIn Profile
