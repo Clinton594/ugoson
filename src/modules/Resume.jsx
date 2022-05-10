@@ -15,6 +15,17 @@ export default function Resume() {
         </h2>
         <div className="timeline">
           <article className="timeline__item">
+            <h5 className="title title--h5 timeline__title">SENIOR SOFTWARE DEVELOPER at TUNGA.IO</h5>
+            <span className="timeline__period">April 2022 — Present</span>
+            <p className="timeline__description">
+              • Working on Client Projects
+              <br />
+              • Designing and Deploying Micro Services.
+              <br />
+            </p>
+            <hr />
+          </article>
+          <article className="timeline__item">
             <h5 className="title title--h5 timeline__title">SENIOR SOFTWARE DEVELOPER at DIGTIAL DREAMS LTD</h5>
             <span className="timeline__period">Oct 2018 — Mar 2021</span>
             <p className="timeline__description">
