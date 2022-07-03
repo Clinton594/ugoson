@@ -8,7 +8,7 @@ const profile = {
     airtel: "+2348075941561",
     mtn: "+2347034458310",
   },
-  bio: "I am a Full-Stack web developer. With an industry experience of over 5 years, I would love to describe myself as : Strong in design and integration with intuitive problem-solving skills. Proficient in Web based stacks  (JAVASCRIPT, NODEJS, EXPRESSJS, REACTJS, NEXTJS, TYPESCRIPT, PHP, MYSQL, MONGODB,) and BlockChain (SOLIDITY, WEB3JS, ETHERSJS, TRUFFLE, GANACHE). Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. Currently I am working on BlockChain Decentralized Applications and seeking to use my key strengths to work for a “growth-conscious” firm while developing on my areas of low competencies",
+  bio: "Hi, my name is Clinton Onuigbo. A strong test-driven software developer.With an over 5 years experience in front-end and backend development and proficient in modern JavaScript stacks using tools like TypeScript, JavaScript, React/Redux, Nodejs, Nextjs, Express, Mongodb, AWS, PHP and MySQL.I’ve developed a successful school management software that generates revenue for my previous employer",
   features: [
     {
       image: "assets/icons/browser-web-development-svgrepo-com.svg",
@@ -58,19 +58,19 @@ const profile = {
       title: "Frontend",
       list: [
         {
-          language: "React JS",
+          language: "React JS/Next JS",
           level: 96,
         },
         {
-          language: "Next JS",
+          language: "Vanilla JavaScript (ES6)",
           level: 96,
         },
         {
-          language: "Pure JQuery JS",
+          language: "TypeScript",
           level: 98,
         },
         {
-          language: "Pure Vanilla JS (ES6)",
+          language: "Pure JQuery JS",
           level: 95,
         },
         {
@@ -109,7 +109,7 @@ const profile = {
         },
         {
           language: "AWS",
-          level: 65,
+          level: 45,
         },
       ],
     },
@@ -143,8 +143,8 @@ const profile = {
       stack: "Reactjs, Web3js, Solidity, Nodejs, MongoDB, Ethereum Blockchain",
     },
     {
-      image: "assets/images/avaxdot.png",
-      title: "Avaxdot",
+      image: "assets/images/globalgains.png",
+      title: "GlobalGains.io",
       category: "Finance",
       description: "Crypto Investments, Forex Investments",
       link: "https://avaxdot.com",
@@ -152,13 +152,22 @@ const profile = {
       stack: "HTML, CSS, JavaScript (jQuery), PHP, MySQL",
     },
     {
-      image: "assets/images/presale.png",
-      title: "Token Presale",
+      image: "assets/images/primedex.png",
+      title: "PrimeDex",
       category: "Blockchain",
-      description: "Crypto token ICO project [currently in progress...]",
-      link: "https://clinton.github.io/presale",
+      description: "A Decetralized Exchange currently running ICO",
+      link: "https://primedex.io/",
       disabled: false,
-      stack: "Nextjs, Web3js, Solidity, Bianance SmartChain",
+      stack: "Nextjs, Ethers.js, Solidity, Bianance SmartChain",
+    },
+    {
+      image: "assets/images/garaswap.png",
+      title: "GaraSwap Protocol UI",
+      category: "Blockchain",
+      description: "A Decetralized Exchange currently running ICO",
+      link: "https://primedex.io/",
+      disabled: false,
+      stack: "Nextjs, Ethers.js, Solidity, Bianance SmartChain",
     },
   ],
 };

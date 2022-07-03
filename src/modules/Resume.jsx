@@ -16,59 +16,70 @@ export default function Resume() {
         <div className="timeline">
           <article className="timeline__item">
             <h5 className="title title--h5 timeline__title">SENIOR SOFTWARE DEVELOPER at TUNGA.IO</h5>
-            <span className="timeline__period">April 2022 — Present</span>
+            <span className="timeline__period">April 2022 — Present (Contract)</span>
             <p className="timeline__description">
               • Working on Client Projects
               <br />
-              • Designing and Deploying Micro Services.
+              • Developed mobile friendly web application with payment integrations.
+              <br />
+              • Working with developers to design algorithms and flowcharts.
               <br />
             </p>
+            <i className="text-muted">
+              <small>- Using JavaScript, TypeScript, React.js, Redux, HTML5, CSS3</small>
+            </i>
+            <hr />
+          </article>
+
+          <article className="timeline__item">
+            <h5 className="title title--h5 timeline__title">Co-Founder at HACKPIY BLOCKCHAIN ACADEMY</h5>
+            <span className="timeline__period">Apr 2021 - Present (Self Employed)</span>
+            <p className="timeline__description">
+              • Assembled competent workforce to execute company vision.
+              <br />
+              • Leveraged available resources and worked creatively with limited infrastructure.
+              <br />
+              • Developed blockchain applications for our clients.
+              <br />
+            </p>
+
+            <i className="text-muted">
+              <small>
+                - Using Solidity, Ganache/Truffle, Web3.js, Ethers.js, React.js, Redux, JavaScript, TypeScript, Next.js,
+                Node.js, Express.js, Mongodb, HTML5, CSS3
+              </small>
+            </i>
             <hr />
           </article>
           <article className="timeline__item">
             <h5 className="title title--h5 timeline__title">SENIOR SOFTWARE DEVELOPER at DIGTIAL DREAMS LTD</h5>
-            <span className="timeline__period">Oct 2018 — Mar 2021</span>
+            <span className="timeline__period">Oct 2018 — Mar 2021 (Full Time)</span>
             <p className="timeline__description">
-              • Team Lead.
+              • Led an 11-man team to develop highly scalable applications.
               <br />
-              • Handles all software related issues from the Software Department.
-              <br />• Assign tasks and handle reportS.
+              • Applied web services and REST API design best practices to deliver stable systems.
+              <br />
+              • - Collaborated with customers to identify and resolve issues.
+              <br />
             </p>
+            <i className="text-muted">
+              <small>- Using CSS3, HTML5, JavaScript, jQuery, PHP, MYQL, React.js, Redux</small>
+            </i>
             <hr />
           </article>
-
           <article className="timeline__item">
             <h5 className="title title--h5 timeline__title">JUNIOR WEB DEVELOPER at DIGTIAL DREAMS LTD</h5>
-            <span className="timeline__period">May 2017 — Oct 2018</span>
+            <span className="timeline__period">May 2017 — Oct 2018 (Full Time)</span>
             <p className="timeline__description">
-              • Developing and Maintaining the company’s Software Applications
+              • Developer Intern for 1 year.
               <br />
-              • Developing and Maintaining Client’s Software
+              • Collaborated with customers to identify and resolve issues.
               <br />
-              • Technical support on any assigned software project
+              • Training and coaching students in the development processes of their projects.
               <br />
-            </p>
-            <hr />
-          </article>
-
-          <article className="timeline__item">
-            <h5 className="title title--h5 timeline__title">
-              INDUSTRIAL TRAINEE at NORTH-SOUTH POWER COMPANY LTD, SHIRORO NIGER STATE
-            </h5>
-            <span className="timeline__period">Apr 2016 — Apr 2017</span>
-            <p className="timeline__description">
-              • Was an ICT and Science subject’s teacher for their staff school. • Underwent trainings at the power
-              station on the working principles of a turbine. • Remotely working for Digital Dreams during my service
-              year.
-            </p>
-            <hr />
-          </article>
-
-          <article className="timeline__item">
-            <h5 className="title title--h5 timeline__title">TRAINEE INTERN at DIGITAL DEAMS LTD</h5>
-            <span className="timeline__period">Nov 2015 — Apr 2016</span>
-            <p className="timeline__description">
-              • 6months internship on Web Development <br />• Working on clients’ projects while learning
+              <i className="text-muted">
+                <small>- Using CSS3, HTML5, JavaScript, jQuery, PHP, MYQL</small>
+              </i>
             </p>
             <hr />
           </article>
@@ -79,6 +90,24 @@ export default function Resume() {
           <img className="title-icon" src="assets/icons/icon-education.svg" alt="" /> Education
         </h2>
         <div className="timeline">
+          <article className="timeline__item">
+            <h5 className="title title--h5 timeline__title">UDEMY - ADVANCED NODE JS CONCEPTS</h5>
+            <span className="timeline__period">MAY 2022 - Present</span>
+            <p className="timeline__description">
+              • Stephen Grider <br />
+              <br />
+            </p>
+          </article>
+          <article className="timeline__item">
+            <h5 className="title title--h5 timeline__title">
+              UDEMY - JAVASCRIPT ALGORITHMS & DATA STRUCTURES MASTERCLASS
+            </h5>
+            <span className="timeline__period">2021</span>
+            <p className="timeline__description">
+              • Stephen Grider <br />
+              <br />
+            </p>
+          </article>
           <article className="timeline__item">
             <h5 className="title title--h5 timeline__title">ENUGU STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY</h5>
             <span className="timeline__period">2010 — 2015</span>
