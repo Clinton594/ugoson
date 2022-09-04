@@ -133,7 +133,15 @@ const profile = {
       disabled: false,
       stack: "HTML, CSS, JavaScript (jQuery), PHP, MySQL",
     },
-
+    {
+      image: "assets/images/potto.png",
+      title: "Potto Solution",
+      category: "Education",
+      description: "SCHOOL BIOMETRIC SOLUTION!",
+      link: "https://primedex.io/",
+      disabled: false,
+      stack: "HTML5, CSS3, JavaScript",
+    },
     {
       image: "assets/images/ahiamoni.png",
       title: "Ahiamoni",
@@ -160,16 +168,6 @@ const profile = {
       link: "https://lendtrx.com",
       disabled: false,
       stack: "Reactjs, Web3js, Solidity, Nodejs, MongoDB, Ethereum Blockchain",
-    },
-
-    {
-      image: "assets/images/garaswap.png",
-      title: "GaraSwap Protocol UI",
-      category: "Blockchain",
-      description: "A Decetralized Exchange currently running ICO",
-      link: "https://primedex.io/",
-      disabled: false,
-      stack: "Nextjs, Ethers.js, Solidity, Bianance SmartChain",
     },
   ],
 };
