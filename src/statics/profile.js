@@ -138,7 +138,7 @@ const profile = {
       title: "Potto Solution",
       category: "Education",
       description: "SCHOOL BIOMETRIC SOLUTION!",
-      link: "https://primedex.io/",
+      link: "https://potto.ng/",
       disabled: false,
       stack: "HTML5, CSS3, JavaScript",
     },
