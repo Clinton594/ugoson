@@ -116,6 +116,25 @@ const profile = {
   ],
   portfolio: [
     {
+      image: "assets/images/primedex.png",
+      title: "PrimeDex",
+      category: "Blockchain",
+      description: "A Decetralized Exchange currently running ICO",
+      link: "https://primedex.io/",
+      disabled: false,
+      stack: "Nextjs, Ethers.js, Solidity, Bianance SmartChain",
+    },
+    {
+      image: "assets/images/avondex.png",
+      title: "Avondex Capital",
+      category: "Finance",
+      description: "Crypto Investments, Forex Investments",
+      link: "https://avondexcapital.ltd",
+      disabled: false,
+      stack: "HTML, CSS, JavaScript (jQuery), PHP, MySQL",
+    },
+
+    {
       image: "assets/images/ahiamoni.png",
       title: "Ahiamoni",
       category: "E-Commerce",
@@ -142,24 +161,7 @@ const profile = {
       disabled: false,
       stack: "Reactjs, Web3js, Solidity, Nodejs, MongoDB, Ethereum Blockchain",
     },
-    {
-      image: "assets/images/globalgains.png",
-      title: "GlobalGains.io",
-      category: "Finance",
-      description: "Crypto Investments, Forex Investments",
-      link: "https://avaxdot.com",
-      disabled: false,
-      stack: "HTML, CSS, JavaScript (jQuery), PHP, MySQL",
-    },
-    {
-      image: "assets/images/primedex.png",
-      title: "PrimeDex",
-      category: "Blockchain",
-      description: "A Decetralized Exchange currently running ICO",
-      link: "https://primedex.io/",
-      disabled: false,
-      stack: "Nextjs, Ethers.js, Solidity, Bianance SmartChain",
-    },
+
     {
       image: "assets/images/garaswap.png",
       title: "GaraSwap Protocol UI",

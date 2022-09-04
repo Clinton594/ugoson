@@ -24,7 +24,11 @@ export default function Portfolio() {
             >
               <div className="news-item__image-wrap overlay overlay--45">
                 <div className="news-item__date">{project.category}</div>
-                <a className="news-item__link" href={project.disabled ? "#" : project.link}></a>
+                <a
+                  target={project.disabled ? "_parent" : "_blank"}
+                  className="news-item__link"
+                  href={project.disabled ? "/" : project.link}
+                ></a>
                 <img className="cover lazyload" src={project.image} alt="" />
               </div>
               <div className="news-item__caption">
