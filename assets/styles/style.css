@@ -2761,3 +2761,12 @@ iframe {
 }
 
 /*# sourceMappingURL=style.css.map */
+.btn-flat {
+  all: unset;
+  background-color: #b5b6b6;
+  padding: 10px 20px;
+  color: red;
+  border-radius: 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
